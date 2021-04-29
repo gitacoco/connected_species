@@ -1,26 +1,24 @@
-var data;
+d3.csv('data/birds.csv', transformRow)
+    .then(dataIsReady);
 
 function dataIsReady(csv) {
-    data = csv;
-    update();
+    action('setData', csv);
 }
 
 function parseNumber(d) {
     return d === "" ? null : +d;
 }
 
+function parseString(d) {
+    return d === "" ? "Unknown" : d;
+}
+
 function transformRow(d) {
     return {
         name: d.birdName,
-        code: d.birdCode
-        // id: d.id,
-        // hydroelectric: parseNumber(d.hydroelectric),
-        // nuclear: parseNumber(d.nuclear),
-        // oilgascoal: parseNumber(d.oilgascoal),
-        // renewable: parseNumber(d.renewable)
+        code: d.birdCode,
+        normalName: d.normalName,
+        status: d.conservationStatus,
+        trend: parseString(d.populationTrend)
     };
-    console.log(name);
 }
-
-d3.csv('data/birds.csv', transformRow)
-    .then(dataIsReady);

@@ -23,7 +23,7 @@
                 <img src="assets/pics/rec.png"></img>
             </div>
         </div>
-        <div id="buttons" class="grid">
+        <!-- <div id="buttons" class="grid">
             <div id="button1" class="columnA button">
                 <img src="assets/pics/b1.png" width="100%">
             </div>
@@ -43,48 +43,62 @@
             <div id="button5" class="columnE button">
                 <img src="assets/pics/b5.png" width="100%">
             </div>
+        </div> -->
+        <div id="menu">
+            <div class="items grid"></div>
         </div>
     </div>
-    <div id="wrapper" class="grid">
-        <svg id="canvas" class="columnAll">
-            <g id="chart"></g>
-        </svg>
+
+    <div id="wrapper">
+        <!-- <div id="menu">
+            <div class="items grid"></div>
+        </div> -->
+        <div id="chart-wrapper" class="grid">
+            <svg id="canvas" class="columnAll">
+                <g id="chart"></g>
+            </svg>
+        </div>
     </div>
 
-    <script>
+
+    <!-- <script>
         $(document).ready(function () {
             $("#titles").click(function () {
                 $("#wrapper")
                     .empty()
-                    .append('<svg id="canvas" class="columnAll"><g id="chart"></g></svg>');
-                    update()
+                    .append('<div id="chart-wrapper" class="grid"><svg id="canvas" class="columnAll"><g id="chart"></g></svg></div>');
+                update()
             });
 
             $("#button2").click(function () {
                 $("#wrapper")
                     .empty()
-                    .append("<img id='taxonomy' width='1500' class='columnAll' style='margin: 300px auto' src='assets/pics/color.png'/> ");
+                    .append("<img id='taxonomy' width='1500' class='columnAll' style='margin: 200px auto' src='assets/pics/color.png'/> ");
             });
 
             $("#button3").click(function () {
                 $("#wrapper")
                     .empty()
-                    .append("<img id='taxonomy' width='650' class='columnAll' style='margin: 180px auto' src='assets/pics/tax.png'/> ");
+                    .append("<img id='taxonomy' width='650' class='columnAll' style='margin: 50px auto' src='assets/pics/tax.png'/> ");
             });
 
             $("#button4").click(function () {
                 $("#wrapper")
                     .empty()
-                    .append("<img id='taxonomy' width='650' class='columnAll' style='margin: 180px auto' src='assets/pics/phy.png'/> ");
+                    .append("<img id='taxonomy' width='650' class='columnAll' style='margin: 50px auto' src='assets/pics/phy.png'/> ");
             });
         });
-    </script>
+    </script> -->
 
     <script src="js/lib/d3.min.js"></script>
-    <script src="js/config.js"></script>
+    <script src="js/lib/popup-v1.1.1.min.js"></script>
+    <!-- state management script -->
+    <script src="js/store.js"></script>
     <script src="js/layout.js"></script>
     <script src="js/update.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
