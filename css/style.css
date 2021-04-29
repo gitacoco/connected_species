@@ -10,6 +10,7 @@ body {
   background-color: #e9e9e9;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  margin: 0;
 }
 
 body::-webkit-scrollbar {
@@ -36,10 +37,9 @@ a:active {
 iframe {
   width: 100%;
   height: 100%;
-  border-radius: 20px;
+  border-radius: 50px;
   border: 0;
   z-index: 1;
-  /* transform: scale(.5); */
 }
 
 /*mockup*/
@@ -49,14 +49,14 @@ iframe {
   box-shadow: 0 0.5em 2em 0.2em rgba(0, 0, 0, 0.33), 0 0 0 0.5px #000 inset;
   height: 941px;
   width: 1300px;
-  border-width: 4.5vmin;
-  border-radius: 6.4285714286vmin;
-  z-index: 2;
+  border-width: 40px;
+  border-radius: 80px;
+  z-index: 3;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* -webkit-transform: translate(-50%, -50%) scale(0.5); */
+  -webkit-transform: translate(-50%, -50%);
 }
 
 /*text*/
@@ -85,6 +85,7 @@ h4 {
   left: 0;
   top: 0;
   background-color: #e9e9e9;
+  z-index: 2;
 }
 
 #titles {
@@ -166,16 +167,14 @@ h4 {
 
 /*SVG canvas*/
 #chart-wrapper {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 140px;
+  margin-top: 150px;
 }
 
 #canvas {
-  width: 1100px;
-  height: 1100px;
   margin-top: 3%;
-  margin-left: -2.5%;
+  margin-left: -0.7%;
 }
 
 circle {
@@ -279,71 +278,6 @@ p {
   It will set it for you, but it'll cause another style recalculation and layout.
   AKA worse performance - so just set it here
  */
-.my-shuffle-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.my-sizer-element {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.picture-item {
-  height: 220px;
-  margin-top: 24px;
-}
-.picture-item img {
-  display: block;
-  width: 100%;
-}
-
-@supports ((-o-object-fit: cover) or (object-fit: cover)) {
-  .picture-item img {
-    max-width: none;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-}
-.picture-item--h2 {
-  height: 464px;
-  /* 2x the height + 1 gutter */
-}
-
-.picture-item__inner {
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-  background: #ecf0f1;
-}
-
-.picture-item__details {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  width: 100%;
-  padding: 1em;
-}
-
-.picture-item__description {
-  width: 100%;
-  padding: 0 2em 1em 1em;
-  margin: 0;
-}
-
-.picture-item__title {
-  flex-shrink: 0;
-  margin-right: 4px;
-}
-
-.picture-item__tags {
-  flex-shrink: 1;
-  text-align: right;
-  margin: 0;
-}
-
 .textfield:-ms-input-placeholder {
   color: #95a5a6;
   -ms-transition: 0.15s;
@@ -415,24 +349,4 @@ p {
 
 .container:after {
   clear: both;
-}
-
-.row {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.row:after,
-.row:before {
-  content: " ";
-  display: table;
-}
-
-.row:after {
-  clear: both;
-}
-
-.row .row {
-  margin-left: -8px;
-  margin-right: -8px;
 }

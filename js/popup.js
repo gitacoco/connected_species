@@ -10,13 +10,13 @@ function popupTemplate(d) {
     return html;
 }
 
-function handleMouseover(e, d) {
+function handlePopupOn(e, d) {
     popup
         .point(this)
         .html(popupTemplate(d))
         .draw();
 }
 
-function handleMouseout() {
+function handlePopupOff() {
     popup.hide();
 }

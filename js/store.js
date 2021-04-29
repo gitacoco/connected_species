@@ -8,7 +8,7 @@ function action(type, param) {
     case 'setData':
         state.data = param;
         break;
-        
+
     case 'setSelectedIndicator':
         state.selectedIndicator = param;
         break;

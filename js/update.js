@@ -1,10 +1,11 @@
 //populating the g elements when they’re first created
-function initializeGroup(g, d) {
+function initializeGroup(g, d, canvas) {
   g.classed("species", true)
     .style('opacity', 0)
     .attr("transform",`translate(${d.x},${d.y})`)
-    .on('mouseover', handleMouseover)
-    .on('mouseout', handleMouseout);
+    
+  canvas
+    .attr("width", d.canvasWidth);
 
   g.append("circle");
   g.append("svg:defs")
@@ -12,11 +13,32 @@ function initializeGroup(g, d) {
     .append("image");
 }
 
+function hoverBehavior(indicator, g) {
+  switch(indicator) {
+  case null:
+    g.style('pointer-events', 'auto')
+      .on('mouseover', handlePopupOn)
+      .on('mouseout', handlePopupOff);
+    // d3.select("#chart-wrapper")
+    //   .style('overflow-x', 'hidden')
+    break;
+
+  case 'threats':
+    g.style('pointer-events', 'none')
+    // d3.select("#chart-wrapper")
+    //   .style('overflow-x', 'scroll')
+    break;
+}
+}
+
 //updating the g element and its members.
 function updateGroup(d, i) {
   var g = d3.select(this);
+  var canvas = d3.select("#canvas");
   
-  if (g.selectAll("*").empty()) initializeGroup(g, d);
+  if (g.selectAll("*").empty()) initializeGroup(g, d, canvas);
+
+  hoverBehavior(state.selectedIndicator, g);
 
   g.transition()
     .duration(config.transitionDuration)
@@ -24,7 +46,7 @@ function updateGroup(d, i) {
     .style('opacity', 1)
     .attr("transform",`translate(${d.x},${d.y})`);
 
-  //add image in each circle
+  // add image in each circle
   g.select("defs")
     .select("pattern")
       .attr("id", d => d.code)
@@ -42,7 +64,6 @@ function updateGroup(d, i) {
       .attr("height", d.defsRadius)
       .attr("preserveAspectRatio", "xMidYMid slice");
   
-
   g.select("circle") //draw circles
     .transition()
     .duration(config.transitionDuration)
@@ -51,6 +72,12 @@ function updateGroup(d, i) {
     .attr("stroke-width", d.strokewidth)
     .style("fill", d => `url(#${d.code})`);
   
+  canvas
+    .transition()
+    .delay(100)
+    .duration(800)
+    .attr("width", d.canvasWidth)
+    .attr("height", d.canvasHeight)
 }
 
 function updateChart() {

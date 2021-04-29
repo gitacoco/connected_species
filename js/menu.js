@@ -25,7 +25,7 @@ function handleMenuClick(e, d) {
     action('setSelectedIndicator', d.id);
 }
 
-var buttons = d3.select('#menu .items')
+var buttons = d3.select('#menu')
 
 function handleMenuUnclick(e, d) {
     action('setSelectedIndicator', null);
