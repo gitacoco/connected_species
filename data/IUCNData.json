@@ -1,0 +1,2877 @@
+[
+  {
+    "id": 22680107,
+    "imgCode": "AG",
+    "sciName": "Aix galericulata",
+    "commonName": "Mandarin Duck",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2018. Aix galericulata. The IUCN Red List of Threatened Species 2018: e.T22680107A131911544. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22680107A131911544.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680107/131911544",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Aix"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "5710000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22683027,
+    "imgCode": "AA",
+    "sciName": "Alcedo atthis",
+    "commonName": "Common Kingfisher",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2016. Alcedo atthis. The IUCN Red List of Threatened Species 2016: e.T22683027A89575948. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22683027A89575948.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22683027/89575948",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CORACIIFORMES",
+      "family": "ALCEDINIDAE",
+      "genus": "Alcedo"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "79900000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22692640,
+    "imgCode": "AP",
+    "sciName": "Amaurornis phoenicurus",
+    "commonName": "White-breasted Waterhen",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2016. Amaurornis phoenicurus. The IUCN Red List of Threatened Species 2016: e.T22692640A95217833. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22692640A95217833.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22692640/95217833",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "GRUIFORMES",
+      "family": "RALLIDAE",
+      "genus": "Amaurornis"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "39300000",
+      "elevationUpper": 2000,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22680301,
+    "imgCode": "AC",
+    "sciName": "Anas acuta",
+    "commonName": "Northern Pintail",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2019. Anas acuta. The IUCN Red List of Threatened Species 2019: e.T22680301A153882797. https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T22680301A153882797.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680301/153882797",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Anas"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "41900000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22680153,
+    "imgCode": "AL",
+    "sciName": "Mareca falcata",
+    "commonName": "Falcated Duck",
+    "conservationStatus": "NT",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Mareca falcata. The IUCN Red List of Threatened Species 2016: e.T22680153A92846435. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22680153A92846435.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680153/92846435",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Mareca"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "8600000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      }
+    ],
+    "actions": [
+      { "code": "2.1", "title": "Site/area management" },
+      { "code": "4.3", "title": "Awareness & communications" },
+      { "code": "5.1", "title": "Legislation" },
+      { "code": "5.1.2", "title": "National level" },
+      { "code": "5.1.3", "title": "Sub-national level" }
+    ]
+  },
+  {
+    "id": 22680317,
+    "imgCode": "AR",
+    "sciName": "Sibirionetta formosa",
+    "commonName": "Baikal Teal",
+    "conservationStatus": "LC",
+    "populationTrend": "Increasing",
+    "citation": "BirdLife International 2016. Sibirionetta formosa. The IUCN Red List of Threatened Species 2016: e.T22680317A92855272. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22680317A92855272.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680317/92855272",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Sibirionetta"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "4940000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Future",
+        "scope": "Whole (>90%)"
+      },
+      {
+        "code": "1.2",
+        "title": "Commercial & industrial areas",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "4.4",
+        "title": "Flight paths",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.1",
+        "title": "Domestic & urban waste water",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.1.3",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.3",
+        "title": "Agricultural & forestry effluents",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.3.4",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      }
+    ],
+    "actions": [
+      { "code": "1.1", "title": "Site/area protection" },
+      { "code": "3.1", "title": "Species management" },
+      { "code": "3.1.1", "title": "Harvest management" },
+      { "code": "5.1", "title": "Legislation" },
+      { "code": "5.1.1", "title": "International level" }
+    ]
+  },
+  {
+    "id": 22727668,
+    "imgCode": "AI",
+    "sciName": "Ardea intermedia",
+    "commonName": "Intermediate Egret",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2020. Ardea intermedia. The IUCN Red List of Threatened Species 2020: e.T22727668A181757896. https://dx.doi.org/10.2305/IUCN.UK.2020-3.RLTS.T22727668A181757896.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22727668/181757896",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PELECANIFORMES",
+      "family": "ARDEIDAE",
+      "genus": "Ardea"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "30300000",
+      "elevationUpper": 1450,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "6.1",
+        "title": "Recreational activities",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.1",
+        "title": "Domestic & urban waste water",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.1.3",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.2",
+        "title": "Industrial & military effluents",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.2.2",
+        "title": "Seepage from mining",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22697133,
+    "imgCode": "AB",
+    "sciName": "Ardeola bacchus",
+    "commonName": "Chinese Pond-heron",
+    "conservationStatus": "LC",
+    "populationTrend": "Stable",
+    "citation": "BirdLife International 2016. Ardeola bacchus. The IUCN Red List of Threatened Species 2016: e.T22697133A93600684. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22697133A93600684.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22697133/93600684",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PELECANIFORMES",
+      "family": "ARDEIDAE",
+      "genus": "Ardeola"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "9030000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22689531,
+    "imgCode": "AF",
+    "sciName": "Asio flammeus",
+    "commonName": "Short-eared Owl",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Asio flammeus. The IUCN Red List of Threatened Species 2016: e.T22689531A93234548. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22689531A93234548.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22689531/93234548",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "STRIGIFORMES",
+      "family": "STRIGIDAE",
+      "genus": "Asio"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "246000000",
+      "elevationUpper": 4300,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "1.1",
+        "title": "Housing & urban areas",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "1.3",
+        "title": "Tourism & recreation areas",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.3",
+        "title": "Livestock farming & ranching",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.3.3",
+        "title": "Agro-industry grazing, ranching or farming",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "3.3",
+        "title": "Renewable energy",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "4.1",
+        "title": "Roads & railroads",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.3",
+        "title": "Persecution/control",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.2",
+        "title": "Dams & water management/use",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "7.2.4",
+        "title": "Abstraction of surface water (unknown use)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Canis familiaris)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Felis catus)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Canis familiaris)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Felis catus)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases (Unspecified MEPHITIDAE)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2.2",
+        "title": "Named species (Unspecified MEPHITIDAE)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3",
+        "title": "Agricultural & forestry effluents",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3.3",
+        "title": "Herbicides and pesticides",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22689507,
+    "imgCode": "AO",
+    "sciName": "Asio otus",
+    "commonName": "Northern Long-eared Owl",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2018. Asio otus. The IUCN Red List of Threatened Species 2018: e.T22689507A131922722. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22689507A131922722.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22689507/131922722",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "STRIGIFORMES",
+      "family": "STRIGIDAE",
+      "genus": "Asio"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": false,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "80000000",
+      "elevationUpper": 2750,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "1.1",
+        "title": "Housing & urban areas",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "4.1",
+        "title": "Roads & railroads",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.2",
+        "title": "Unintentional effects (species is not the target)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases (Strix aluco)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2.2",
+        "title": "Named species (Strix aluco)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3",
+        "title": "Agricultural & forestry effluents",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3.3",
+        "title": "Herbicides and pesticides",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22680358,
+    "imgCode": "AE",
+    "sciName": "Aythya ferina",
+    "commonName": "Common Pochard",
+    "conservationStatus": "VU",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2019. Aythya ferina. The IUCN Red List of Threatened Species 2019: e.T22680358A155473754. https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T22680358A155473754.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680358/155473754",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Aythya"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "548000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "1.1",
+        "title": "Housing & urban areas",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.1.2",
+        "title": "Small-holder farming",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.2",
+        "title": "Unintentional effects (species is not the target)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4",
+        "title": "Fishing & harvesting aquatic resources",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4.3",
+        "title": "Unintentional effects: (subsistence/small scale) [harvest]",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "6.1",
+        "title": "Recreational activities",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Cyprinus carpio)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Neovison vison)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Nyctereutes procyonoides)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Procyon lotor)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Cyprinus carpio)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Neovison vison)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Nyctereutes procyonoides)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Procyon lotor)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases (Sus scrofa)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases (Vulpes vulpes)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2.2",
+        "title": "Named species (Sus scrofa)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2.2",
+        "title": "Named species (Vulpes vulpes)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.5",
+        "title": "Viral/prion-induced diseases",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.5.2",
+        "title": "Named species",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3",
+        "title": "Agricultural & forestry effluents",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3.1",
+        "title": "Nutrient loads",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": [
+      { "code": "1.1", "title": "Site/area protection" },
+      { "code": "2.1", "title": "Site/area management" },
+      { "code": "2.2", "title": "Invasive/problematic species control" },
+      { "code": "3.1", "title": "Species management" },
+      { "code": "3.1.1", "title": "Harvest management" },
+      { "code": "5.4", "title": "Compliance and enforcement" },
+      { "code": "5.4.2", "title": "National level" }
+    ]
+  },
+  {
+    "id": 22680391,
+    "imgCode": "AU",
+    "sciName": "Aythya fuligula",
+    "commonName": "Tufted Duck",
+    "conservationStatus": "LC",
+    "populationTrend": "Stable",
+    "citation": "BirdLife International 2016. Aythya fuligula. The IUCN Red List of Threatened Species 2016: e.T22680391A86013549. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22680391A86013549.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680391/86013549",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Aythya"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "34900000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22688927,
+    "imgCode": "BB",
+    "sciName": "Bubo bubo",
+    "commonName": "Eurasian Eagle-owl",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2017. Bubo bubo. The IUCN Red List of Threatened Species 2017: e.T22688927A113569670. https://dx.doi.org/10.2305/IUCN.UK.2017-1.RLTS.T22688927A113569670.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22688927/113569670",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "STRIGIFORMES",
+      "family": "STRIGIDAE",
+      "genus": "Bubo"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": false,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "51400000",
+      "elevationUpper": 4500,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22698172,
+    "imgCode": "CL",
+    "sciName": "Calonectris leucomelas",
+    "commonName": "Streaked Shearwater",
+    "conservationStatus": "NT",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2018. Calonectris leucomelas. The IUCN Red List of Threatened Species 2018: e.T22698172A132630766. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22698172A132630766.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22698172/132630766",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PROCELLARIIFORMES",
+      "family": "PROCELLARIIDAE",
+      "genus": "Calonectris"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": false,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "45800000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Ongoing",
+        "scope": "Whole (>90%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.4",
+        "title": "Fishing & harvesting aquatic resources",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.4.4",
+        "title": "Unintentional effects: (large scale) [harvest]",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "6.3",
+        "title": "Work & other activities",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Felis catus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Rattus norvegicus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Rattus rattus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Felis catus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Rattus norvegicus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Rattus rattus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.2",
+        "title": "Industrial & military effluents",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.2.3",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      }
+    ],
+    "actions": [
+      { "code": "2.2", "title": "Invasive/problematic species control" },
+      { "code": "4.3", "title": "Awareness & communications" }
+    ]
+  },
+  {
+    "id": 22697669,
+    "imgCode": "CN",
+    "sciName": "Ciconia nigra",
+    "commonName": "Black Stork",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2017. Ciconia nigra. The IUCN Red List of Threatened Species 2017: e.T22697669A111747857. https://dx.doi.org/10.2305/IUCN.UK.2017-1.RLTS.T22697669A111747857.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22697669/111747857",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CICONIIFORMES",
+      "family": "CICONIIDAE",
+      "genus": "Ciconia"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "25100000",
+      "elevationUpper": 2000,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22706016,
+    "imgCode": "CO",
+    "sciName": "Corvus corone",
+    "commonName": "Carrion Crow",
+    "conservationStatus": "LC",
+    "populationTrend": "Increasing",
+    "citation": "BirdLife International 2017. Corvus corone. The IUCN Red List of Threatened Species 2017: e.T22706016A118784397. https://dx.doi.org/10.2305/IUCN.UK.2017-3.RLTS.T22706016A118784397.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22706016/118784397",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PASSERIFORMES",
+      "family": "CORVIDAE",
+      "genus": "Corvus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "81600000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22679862,
+    "imgCode": "CC",
+    "sciName": "Cygnus columbianus",
+    "commonName": "Tundra Swan",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2016. Cygnus columbianus. The IUCN Red List of Threatened Species 2016: e.T22679862A89644875. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22679862A89644875.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22679862/89644875",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Cygnus"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "23500000",
+      "elevationUpper": 2000,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Future",
+        "scope": "Whole (>90%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 62774969,
+    "imgCode": "EG",
+    "sciName": "Egretta garzetta",
+    "commonName": "Little Egret",
+    "conservationStatus": "LC",
+    "populationTrend": "Increasing",
+    "citation": "BirdLife International 2016. Egretta garzetta. The IUCN Red List of Threatened Species 2016: e.T62774969A86473701. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T62774969A86473701.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/62774969/86473701",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PELECANIFORMES",
+      "family": "ARDEIDAE",
+      "genus": "Egretta"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "151000000",
+      "elevationUpper": 2000,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22692789,
+    "imgCode": "GC",
+    "sciName": "Gallicrex cinerea",
+    "commonName": "Watercock",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Gallicrex cinerea. The IUCN Red List of Threatened Species 2016: e.T22692789A93369824. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22692789A93369824.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22692789/93369824",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "GRUIFORMES",
+      "family": "RALLIDAE",
+      "genus": "Gallicrex"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "22600000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22697829,
+    "imgCode": "GS",
+    "sciName": "Gavia stellata",
+    "commonName": "Red-throated Loon",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2018. Gavia stellata. The IUCN Red List of Threatened Species 2018: e.T22697829A131942584. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22697829A131942584.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22697829/131942584",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "GAVIIFORMES",
+      "family": "GAVIIDAE",
+      "genus": "Gavia"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "59900000",
+      "elevationUpper": 500,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Future",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "3.3",
+        "title": "Renewable energy",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "4.3",
+        "title": "Shipping lanes",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4",
+        "title": "Fishing & harvesting aquatic resources",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4.4",
+        "title": "Unintentional effects: (large scale) [harvest]",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.2",
+        "title": "Industrial & military effluents",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.2.1",
+        "title": "Oil spills",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22692146,
+    "imgCode": "GG",
+    "sciName": "Grus grus",
+    "commonName": "Common Crane",
+    "conservationStatus": "LC",
+    "populationTrend": "Increasing",
+    "citation": "BirdLife International 2016. Grus grus. The IUCN Red List of Threatened Species 2016: e.T22692146A86219168. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22692146A86219168.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22692146/86219168",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "GRUIFORMES",
+      "family": "GRUIDAE",
+      "genus": "Grus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "25600000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "1.1",
+        "title": "Housing & urban areas",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.2",
+        "title": "Wood & pulp plantations",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.2.2",
+        "title": "Agro-industry plantations",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "4.1",
+        "title": "Roads & railroads",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "4.2",
+        "title": "Utility & service lines",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "6.1",
+        "title": "Recreational activities",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.2",
+        "title": "Dams & water management/use",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "7.2.10",
+        "title": "Large dams",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "7.2.4",
+        "title": "Abstraction of surface water (unknown use)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "7.3",
+        "title": "Other ecosystem modifications",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.3",
+        "title": "Agricultural & forestry effluents",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.3.3",
+        "title": "Herbicides and pesticides",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22692167,
+    "imgCode": "GJ",
+    "sciName": "Grus japonensis",
+    "commonName": "Red-crowned Crane",
+    "conservationStatus": "EN",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Grus japonensis. The IUCN Red List of Threatened Species 2016: e.T22692167A93339099. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22692167A93339099.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22692167/93339099",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "GRUIFORMES",
+      "family": "GRUIDAE",
+      "genus": "Grus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "1760000",
+      "elevationUpper": null,
+      "elevationLower": 0,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "1.2",
+        "title": "Commercial & industrial areas",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Unknown",
+        "scope": "Unknown"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Unknown",
+        "scope": "Unknown"
+      },
+      {
+        "code": "5.1.3",
+        "title": "Persecution/control",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "6.3",
+        "title": "Work & other activities",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.3",
+        "title": "Other ecosystem modifications",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.2",
+        "title": "Industrial & military effluents",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.2.3",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": [
+      { "code": "1.1", "title": "Site/area protection" },
+      { "code": "2.1", "title": "Site/area management" },
+      { "code": "2.2", "title": "Invasive/problematic species control" },
+      { "code": "3.4", "title": "Ex-situ conservation" },
+      { "code": "3.4.1", "title": "Captive breeding/artificial propagation" },
+      { "code": "4.3", "title": "Awareness & communications" },
+      { "code": "5.1", "title": "Legislation" },
+      { "code": "5.1.2", "title": "National level" }
+    ]
+  },
+  {
+    "id": 22692073,
+    "imgCode": "GV",
+    "sciName": "Grus vipio",
+    "commonName": "White-naped Crane",
+    "conservationStatus": "VU",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2018. Grus vipio. The IUCN Red List of Threatened Species 2018: e.T22692073A131927305. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22692073A131927305.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22692073/131927305",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "GRUIFORMES",
+      "family": "GRUIDAE",
+      "genus": "Grus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "941000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.2",
+        "title": "Droughts",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "1.2",
+        "title": "Commercial & industrial areas",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.3",
+        "title": "Livestock farming & ranching",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.3.4",
+        "title": "Scale Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "6.3",
+        "title": "Work & other activities",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.1",
+        "title": "Fire & fire suppression",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "7.1.3",
+        "title": "Trend Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.5",
+        "title": "Viral/prion-induced diseases",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.5.2",
+        "title": "Named species",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3",
+        "title": "Agricultural & forestry effluents",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3.4",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": [
+      { "code": "1.1", "title": "Site/area protection" },
+      { "code": "2.1", "title": "Site/area management" },
+      { "code": "4.2", "title": "Training" },
+      { "code": "5.4", "title": "Compliance and enforcement" },
+      { "code": "5.4.3", "title": "Sub-national level" }
+    ]
+  },
+  {
+    "id": 22683249,
+    "imgCode": "HP",
+    "sciName": "Halcyon pileata",
+    "commonName": "Black-capped Kingfisher",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Halcyon pileata. The IUCN Red List of Threatened Species 2016: e.T22683249A92980167. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22683249A92980167.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22683249/92980167",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CORACIIFORMES",
+      "family": "ALCEDINIDAE",
+      "genus": "Halcyon"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "5160000",
+      "elevationUpper": 1525,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22697317,
+    "imgCode": "LE",
+    "sciName": "Ixobrychus eurhythmus",
+    "commonName": "Schrenck's Bittern",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Ixobrychus eurhythmus. The IUCN Red List of Threatened Species 2016: e.T22697317A93607859. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22697317A93607859.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22697317/93607859",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PELECANIFORMES",
+      "family": "ARDEIDAE",
+      "genus": "Ixobrychus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "5350000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 62030608,
+    "imgCode": "LA",
+    "sciName": "Larus argentatus",
+    "commonName": "European Herring Gull",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2018. Larus argentatus. The IUCN Red List of Threatened Species 2018: e.T62030608A132672776. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T62030608A132672776.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/62030608/132672776",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CHARADRIIFORMES",
+      "family": "LARIDAE",
+      "genus": "Larus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "7180000",
+      "elevationUpper": 2000,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "3.3",
+        "title": "Renewable energy",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.3",
+        "title": "Persecution/control",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4",
+        "title": "Fishing & harvesting aquatic resources",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4.4",
+        "title": "Unintentional effects: (large scale) [harvest]",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases (Clostridium botulinum)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2.2",
+        "title": "Named species (Clostridium botulinum)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22694308,
+    "imgCode": "LC",
+    "sciName": "Larus canus",
+    "commonName": "Mew Gull",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2019. Larus canus. The IUCN Red List of Threatened Species 2019: e.T22694308A155576460. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22694308A155576460.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22694308/155576460",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CHARADRIIFORMES",
+      "family": "LARIDAE",
+      "genus": "Larus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "2640000",
+      "elevationUpper": 1400,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22694420,
+    "imgCode": "LR",
+    "sciName": "Larus ridibundus",
+    "commonName": "Black-headed Gull",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2018. Larus ridibundus. The IUCN Red List of Threatened Species 2018: e.T22694420A132548687. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22694420A132548687.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22694420/132548687",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CHARADRIIFORMES",
+      "family": "LARIDAE",
+      "genus": "Larus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "44500000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22683620,
+    "imgCode": "ML",
+    "sciName": "Megaceryle lugubris",
+    "commonName": "Crested Kingfisher",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Megaceryle lugubris. The IUCN Red List of Threatened Species 2016: e.T22683620A92992024. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22683620A92992024.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22683620/92992024",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CORACIIFORMES",
+      "family": "ALCEDINIDAE",
+      "genus": "Megaceryle"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "13200000",
+      "elevationUpper": 2800,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22680465,
+    "imgCode": "MA",
+    "sciName": "Mergellus albellus",
+    "commonName": "Smew",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Mergellus albellus. The IUCN Red List of Threatened Species 2016: e.T22680465A85991357. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22680465A85991357.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680465/85991357",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Mergellus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "17500000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Future",
+        "scope": "Whole (>90%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22680492,
+    "imgCode": "MM",
+    "sciName": "Mergus merganser",
+    "commonName": "Goosander",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2018. Mergus merganser. The IUCN Red List of Threatened Species 2018: e.T22680492A132054083. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22680492A132054083.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680492/132054083",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Mergus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "82100000",
+      "elevationUpper": 1900,
+      "elevationLower": 1900,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.3",
+        "title": "Persecution/control",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": [
+      { "code": "3.2", "title": "Species recovery" },
+      { "code": "5.1", "title": "Legislation" },
+      { "code": "5.1.4", "title": "Scale unspecified" }
+    ]
+  },
+  {
+    "id": 22693199,
+    "imgCode": "NM",
+    "sciName": "Numenius madagascariensis",
+    "commonName": "Far Eastern Curlew",
+    "conservationStatus": "EN",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2017. Numenius madagascariensis. The IUCN Red List of Threatened Species 2017: e.T22693199A118601473. https://dx.doi.org/10.2305/IUCN.UK.2017-3.RLTS.T22693199A118601473.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22693199/118601473",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CHARADRIIFORMES",
+      "family": "SCOLOPACIDAE",
+      "genus": "Numenius"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "5590000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Future",
+        "scope": "Whole (>90%)"
+      },
+      {
+        "code": "1.2",
+        "title": "Commercial & industrial areas",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.4",
+        "title": "Marine & freshwater aquaculture",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.4.2",
+        "title": "Industrial aquaculture",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.3",
+        "title": "Logging & wood harvesting",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.3.4",
+        "title": "Unintentional effects: (large scale) [harvest]",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3",
+        "title": "Agricultural & forestry effluents",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3.4",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": [
+      { "code": "1.1", "title": "Site/area protection" },
+      { "code": "2.1", "title": "Site/area management" },
+      { "code": "2.3", "title": "Habitat & natural process restoration" },
+      { "code": "4.3", "title": "Awareness & communications" },
+      { "code": "5.1", "title": "Legislation" },
+      { "code": "5.1.2", "title": "National level" },
+      { "code": "6.1", "title": "Linked enterprises & livelihood alternatives" }
+    ]
+  },
+  {
+    "id": 22697211,
+    "imgCode": "NN",
+    "sciName": "Nycticorax nycticorax",
+    "commonName": "Black-crowned Night-heron",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2019. Nycticorax nycticorax. The IUCN Red List of Threatened Species 2019: e.T22697211A155515762. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22697211A155515762.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22697211/155515762",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PELECANIFORMES",
+      "family": "ARDEIDAE",
+      "genus": "Nycticorax"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "290000000",
+      "elevationUpper": 4800,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22697599,
+    "imgCode": "PC",
+    "sciName": "Pelecanus crispus",
+    "commonName": "Dalmatian Pelican",
+    "conservationStatus": "NT",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2018. Pelecanus crispus. The IUCN Red List of Threatened Species 2018: e.T22697599A122838534. https://dx.doi.org/10.2305/IUCN.UK.2017-3.RLTS.T22697599A122838534.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22697599/122838534",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PELECANIFORMES",
+      "family": "PELECANIDAE",
+      "genus": "Pelecanus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "12600000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "2.1",
+        "title": "Annual & perennial non-timber crops",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "2.1.3",
+        "title": "Agro-industry farming",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "3.3",
+        "title": "Renewable energy",
+        "timing": "Future",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "4.1",
+        "title": "Roads & railroads",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "4.2",
+        "title": "Utility & service lines",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Past, Unlikely to Return",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Past, Unlikely to Return",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.1.3",
+        "title": "Persecution/control",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4",
+        "title": "Fishing & harvesting aquatic resources",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4.4",
+        "title": "Unintentional effects: (large scale) [harvest]",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "6.1",
+        "title": "Recreational activities",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.2",
+        "title": "Dams & water management/use",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.2.11",
+        "title": "Dams (size unknown)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases (Sus scrofa)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2.2",
+        "title": "Named species (Sus scrofa)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.3",
+        "title": "Agricultural & forestry effluents",
+        "timing": "Future",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.3.4",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Future",
+        "scope": "Majority (50-90%)"
+      }
+    ],
+    "actions": [
+      { "code": "2.1", "title": "Site/area management" },
+      { "code": "4.3", "title": "Awareness & communications" },
+      { "code": "5.1", "title": "Legislation" },
+      { "code": "5.1.1", "title": "International level" },
+      { "code": "6.1", "title": "Linked enterprises & livelihood alternatives" }
+    ]
+  },
+  {
+    "id": 22696792,
+    "imgCode": "PA",
+    "sciName": "Phalacrocorax carbo",
+    "commonName": "Great Cormorant",
+    "conservationStatus": "LC",
+    "populationTrend": "Increasing",
+    "citation": "BirdLife International 2019. Phalacrocorax carbo. The IUCN Red List of Threatened Species 2019: e.T22696792A155523636. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22696792A155523636.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22696792/155523636",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "SULIFORMES",
+      "family": "PHALACROCORACIDAE",
+      "genus": "Phalacrocorax"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "312000000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "5.4",
+        "title": "Fishing & harvesting aquatic resources",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4.3",
+        "title": "Unintentional effects: (subsistence/small scale) [harvest]",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 45100023,
+    "imgCode": "PO",
+    "sciName": "Phasianus colchicus",
+    "commonName": "Common Pheasant",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2016. Phasianus colchicus. The IUCN Red List of Threatened Species 2016: e.T45100023A85926819. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T45100023A85926819.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/45100023/85926819",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "GALLIFORMES",
+      "family": "PHASIANIDAE",
+      "genus": "Phasianus"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": false,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "20900000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 103727048,
+    "imgCode": "PP",
+    "sciName": "Pica pica",
+    "commonName": "Eurasian Magpie",
+    "conservationStatus": "LC",
+    "populationTrend": "Stable",
+    "citation": "BirdLife International 2017. Pica pica. The IUCN Red List of Threatened Species 2017: e.T103727048A112300389. https://dx.doi.org/10.2305/IUCN.UK.2017-1.RLTS.T103727048A112300389.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/103727048/112300389",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PASSERIFORMES",
+      "family": "CORVIDAE",
+      "genus": "Pica"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": false,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "58600000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22697555,
+    "imgCode": "PL",
+    "sciName": "Platalea leucorodia",
+    "commonName": "Eurasian Spoonbill",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2019. Platalea leucorodia. The IUCN Red List of Threatened Species 2019: e.T22697555A155460986. https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T22697555A155460986.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22697555/155460986",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PELECANIFORMES",
+      "family": "THRESKIORNITHIDAE",
+      "genus": "Platalea"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "60400000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22696602,
+    "imgCode": "PR",
+    "sciName": "Podiceps cristatus",
+    "commonName": "Great Crested Grebe",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2019. Podiceps cristatus. The IUCN Red List of Threatened Species 2019: e.T22696602A154250080. https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T22696602A154250080.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22696602/154250080",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PODICIPEDIFORMES",
+      "family": "PODICIPEDIDAE",
+      "genus": "Podiceps"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "183000000",
+      "elevationUpper": 3000,
+      "elevationLower": 0,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Oncorhynchus mykiss)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Oncorhynchus mykiss)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": [
+      { "code": "1.1", "title": "Site/area protection" },
+      { "code": "1.2", "title": "Resource & habitat protection" },
+      { "code": "5.1", "title": "Legislation" },
+      { "code": "5.1.1", "title": "International level" },
+      { "code": "5.4", "title": "Compliance and enforcement" },
+      { "code": "5.4.2", "title": "National level" }
+    ]
+  },
+  {
+    "id": 22696610,
+    "imgCode": "PN",
+    "sciName": "Podiceps nigricollis",
+    "commonName": "Black-necked Grebe",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2018. Podiceps nigricollis. The IUCN Red List of Threatened Species 2018: e.T22696610A132584321. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22696610A132584321.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22696610/132584321",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PODICIPEDIFORMES",
+      "family": "PODICIPEDIDAE",
+      "genus": "Podiceps"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "146000000",
+      "elevationUpper": 2500,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.5",
+        "title": "Other impacts",
+        "timing": "Past, Likely to Return",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22697810,
+    "imgCode": "SD",
+    "sciName": "Spheniscus demersus",
+    "commonName": "African Penguin",
+    "conservationStatus": "EN",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2020. Spheniscus demersus. The IUCN Red List of Threatened Species 2020: e.T22697810A157423361. https://dx.doi.org/10.2305/IUCN.UK.2020-3.RLTS.T22697810A157423361.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22697810/157423361",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "SPHENISCIFORMES",
+      "family": "SPHENISCIDAE",
+      "genus": "Spheniscus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": false,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "3920000",
+      "elevationUpper": 50,
+      "elevationLower": 0,
+      "depthUpper": 0,
+      "depthLower": 130
+    },
+    "threats": [
+      {
+        "code": "11.1",
+        "title": "Habitat shifting & alteration",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "11.4",
+        "title": "Storms & flooding",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "3.1",
+        "title": "Oil & gas drilling",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "3.2",
+        "title": "Mining & quarrying",
+        "timing": "Future",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.4",
+        "title": "Fishing & harvesting aquatic resources",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "5.4.4",
+        "title": "Unintentional effects: (large scale) [harvest]",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "6.3",
+        "title": "Work & other activities",
+        "timing": "Past, Unlikely to Return",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Felis catus)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Felis catus)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases (Arctocephalus pusillus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.2",
+        "title": "Problematic native species/diseases (Larus dominicanus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.2.1",
+        "title": "Unspecified species",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.2.2",
+        "title": "Named species (Arctocephalus pusillus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.2.2",
+        "title": "Named species (Larus dominicanus)",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.2",
+        "title": "Industrial & military effluents",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.2.1",
+        "title": "Oil spills",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      }
+    ],
+    "actions": [
+      { "code": "1.1", "title": "Site/area protection" },
+      { "code": "1.2", "title": "Resource & habitat protection" },
+      { "code": "2.1", "title": "Site/area management" },
+      { "code": "2.2", "title": "Invasive/problematic species control" },
+      { "code": "3.2", "title": "Species recovery" },
+      { "code": "3.3", "title": "Species re-introduction" },
+      { "code": "3.3.1", "title": "Reintroduction" },
+      { "code": "4.3", "title": "Awareness & communications" },
+      { "code": "5.1", "title": "Legislation" },
+      { "code": "5.1.2", "title": "National level" },
+      { "code": "5.4", "title": "Compliance and enforcement" },
+      { "code": "5.4.1", "title": "International level" }
+    ]
+  },
+  {
+    "id": 22694896,
+    "imgCode": "SA",
+    "sciName": "Synthliboramphus antiquus",
+    "commonName": "Ancient Murrelet",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2018. Synthliboramphus antiquus. The IUCN Red List of Threatened Species 2018: e.T22694896A132580015. https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22694896A132580015.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22694896/132580015",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "CHARADRIIFORMES",
+      "family": "ALCIDAE",
+      "genus": "Synthliboramphus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": false,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "15300000",
+      "elevationUpper": 100,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "11.3",
+        "title": "Temperature extremes",
+        "timing": "Ongoing",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Procyon lotor)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Unspecified Rattus)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Procyon lotor)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Unspecified Rattus)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": 22696545,
+    "imgCode": "TR",
+    "sciName": "Tachybaptus ruficollis",
+    "commonName": "Little Grebe",
+    "conservationStatus": "LC",
+    "populationTrend": "Decreasing",
+    "citation": "BirdLife International 2019. Tachybaptus ruficollis. The IUCN Red List of Threatened Species 2019: e.T22696545A155540155. https://dx.doi.org/10.2305/IUCN.UK.2019-3.RLTS.T22696545A155540155.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22696545/155540155",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "PODICIPEDIFORMES",
+      "family": "PODICIPEDIDAE",
+      "genus": "Tachybaptus"
+    },
+    "ecology": {
+      "marine_system": true,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "170000000",
+      "elevationUpper": 1000,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [],
+    "actions": []
+  },
+  {
+    "id": 22680003,
+    "imgCode": "TF",
+    "sciName": "Tadorna ferruginea",
+    "commonName": "Ruddy Shelduck",
+    "conservationStatus": "LC",
+    "populationTrend": "Unknown",
+    "citation": "BirdLife International 2016. Tadorna ferruginea. The IUCN Red List of Threatened Species 2016: e.T22680003A86011049. https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T22680003A86011049.en .Downloaded on 2 May 2021",
+    "linkURL": "https://www.iucnredlist.org/species/22680003/86011049",
+    "taxonomy": {
+      "kingdom": "ANIMALIA",
+      "phylum": "CHORDATA",
+      "Class": "AVES",
+      "order": "ANSERIFORMES",
+      "family": "ANATIDAE",
+      "genus": "Tadorna"
+    },
+    "ecology": {
+      "marine_system": false,
+      "freshwater_system": true,
+      "terrestrial_system": true
+    },
+    "geo": {
+      "EOO": "37900000",
+      "elevationUpper": null,
+      "elevationLower": null,
+      "depthUpper": null,
+      "depthLower": null
+    },
+    "threats": [
+      {
+        "code": "1.1",
+        "title": "Housing & urban areas",
+        "timing": "Past, Likely to Return",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.3",
+        "title": "Livestock farming & ranching",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "2.3.4",
+        "title": "Scale Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "3.2",
+        "title": "Mining & quarrying",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1",
+        "title": "Hunting & trapping terrestrial animals",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "5.1.1",
+        "title": "Intentional use (species is the target)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.2",
+        "title": "Dams & water management/use",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.2.4",
+        "title": "Abstraction of surface water (unknown use)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "7.2.7",
+        "title": "Abstraction of ground water (agricultural use)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1",
+        "title": "Invasive non-native/alien species/diseases (Tadorna cana)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.1",
+        "title": "Unspecified species",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.1.2",
+        "title": "Named species (Tadorna cana)",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "8.5",
+        "title": "Viral/prion-induced diseases",
+        "timing": "Past, Likely to Return",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "8.5.2",
+        "title": "Named species",
+        "timing": "Past, Likely to Return",
+        "scope": "Majority (50-90%)"
+      },
+      {
+        "code": "9.1",
+        "title": "Domestic & urban waste water",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      },
+      {
+        "code": "9.1.3",
+        "title": "Type Unknown/Unrecorded",
+        "timing": "Ongoing",
+        "scope": "Minority (<50%)"
+      }
+    ],
+    "actions": []
+  }
+]
