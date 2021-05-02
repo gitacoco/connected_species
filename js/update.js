@@ -38,7 +38,7 @@ function updateGroup(d, i) {
   
   if (g.selectAll("*").empty()) initializeGroup(g, d, canvas);
 
-  hoverBehavior(state.selectedIndicator, g);
+  hoverBehavior(state.selectedButton, g);
 
   g.transition()
     .duration(config.transitionDuration)

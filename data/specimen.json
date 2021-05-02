@@ -1,0 +1,310 @@
+[
+    {
+      "birdName": "Aix galericulata",
+      "birdCode": "AG",
+      "conservationStatus": "LC",
+      "normalName": "Mandarin Duck",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Alcedo atthis",
+      "birdCode": "AA",
+      "conservationStatus": "LC",
+      "normalName": "Common Kingfisher",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Amaurornis phoenicurus",
+      "birdCode": "AP",
+      "conservationStatus": "LC",
+      "normalName": "White-breasted Waterhen",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Anas acuta",
+      "birdCode": "AC",
+      "conservationStatus": "LC",
+      "normalName": "Northern Pintail",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Mareca falcata",
+      "birdCode": "AL",
+      "conservationStatus": "NT",
+      "normalName": "Falcated Duck",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Sibirionetta formosa",
+      "birdCode": "AR",
+      "conservationStatus": "LC",
+      "normalName": "Baikal Teal",
+      "populationTrend": "Increasing"
+    },
+    {
+      "birdName": "Ardea intermedia",
+      "birdCode": "AI",
+      "conservationStatus": "LC",
+      "normalName": "Intermediate Egret",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Ardeola bacchus",
+      "birdCode": "AB",
+      "conservationStatus": "LC",
+      "normalName": "Chinese Pond-heron",
+      "populationTrend": "Stable"
+    },
+    {
+      "birdName": "Asio flammeus",
+      "birdCode": "AF",
+      "conservationStatus": "LC",
+      "normalName": "Short-eared Owl",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Asio otus",
+      "birdCode": "AO",
+      "conservationStatus": "LC",
+      "normalName": "Northern Long-eared Owl",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Aythya ferina",
+      "birdCode": "AE",
+      "conservationStatus": "VU",
+      "normalName": "Common Pochard",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Aythya fuligula",
+      "birdCode": "AU",
+      "conservationStatus": "LC",
+      "normalName": "Tufted Duck",
+      "populationTrend": "Stable"
+    },
+    {
+      "birdName": "Bubo bubo",
+      "birdCode": "BB",
+      "conservationStatus": "LC",
+      "normalName": "Eurasian Eagle-owl",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Calonectris leucomelas",
+      "birdCode": "CL",
+      "conservationStatus": "NT",
+      "normalName": "Streaked Shearwater",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Ciconia nigra",
+      "birdCode": "CN",
+      "conservationStatus": "LC",
+      "normalName": "Black Stork",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Corvus corone",
+      "birdCode": "CO",
+      "conservationStatus": "LC",
+      "normalName": "Carrion Crow",
+      "populationTrend": "Increasing"
+    },
+    {
+      "birdName": "Cygnus columbianus",
+      "birdCode": "CC",
+      "conservationStatus": "LC",
+      "normalName": "Tundra Swan",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Egretta garzetta",
+      "birdCode": "EG",
+      "conservationStatus": "LC",
+      "normalName": "Little Egret",
+      "populationTrend": "Increasing"
+    },
+    {
+      "birdName": "Gallicrex cinerea",
+      "birdCode": "GC",
+      "conservationStatus": "LC",
+      "normalName": "Watercock",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Gavia stellata",
+      "birdCode": "GS",
+      "conservationStatus": "LC",
+      "normalName": "Red-throated Loon",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Grus grus",
+      "birdCode": "GG",
+      "conservationStatus": "LC",
+      "normalName": "Common Crane",
+      "populationTrend": "Increasing"
+    },
+    {
+      "birdName": "Grus japonensis",
+      "birdCode": "GJ",
+      "conservationStatus": "EN",
+      "normalName": "Red-crowned Crane",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Grus vipio",
+      "birdCode": "GV",
+      "conservationStatus": "VU",
+      "normalName": "White-naped Crane",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Halcyon pileata",
+      "birdCode": "HP",
+      "conservationStatus": "LC",
+      "normalName": "Black-capped Kingfisher",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Ixobrychus eurhythmus",
+      "birdCode": "LE",
+      "conservationStatus": "LC",
+      "normalName": "Schrenck's Bittern",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Larus argentatus",
+      "birdCode": "LA",
+      "conservationStatus": "LC",
+      "normalName": "European Herring Gull",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Larus canus",
+      "birdCode": "LC",
+      "conservationStatus": "LC",
+      "normalName": "Mew Gull",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Larus ridibundus",
+      "birdCode": "LR",
+      "conservationStatus": "LC",
+      "normalName": "Black-headed Gull",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Megaceryle lugubris",
+      "birdCode": "ML",
+      "conservationStatus": "LC",
+      "normalName": "Crested Kingfisher",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Mergellus albellus",
+      "birdCode": "MA",
+      "conservationStatus": "LC",
+      "normalName": "Smew",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Mergus merganser",
+      "birdCode": "MM",
+      "conservationStatus": "LC",
+      "normalName": "Goosander",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Numenius madagascariensis",
+      "birdCode": "NM",
+      "conservationStatus": "EN",
+      "normalName": "Far Eastern Curlew",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Nycticorax nycticorax",
+      "birdCode": "NN",
+      "conservationStatus": "LC",
+      "normalName": "Black-crowned Night-heron",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Pelecanus crispus",
+      "birdCode": "PC",
+      "conservationStatus": "NT",
+      "normalName": "Dalmatian Pelican",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Phalacrocorax carbo",
+      "birdCode": "PA",
+      "conservationStatus": "LC",
+      "normalName": "Great Cormorant",
+      "populationTrend": "Increasing"
+    },
+    {
+      "birdName": "Phasianus colchicus",
+      "birdCode": "PO",
+      "conservationStatus": "LC",
+      "normalName": "Common Pheasant",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Pica pica",
+      "birdCode": "PP",
+      "conservationStatus": "LC",
+      "normalName": "Eurasian Magpie",
+      "populationTrend": "Stable"
+    },
+    {
+      "birdName": "Platalea leucorodia",
+      "birdCode": "PL",
+      "conservationStatus": "LC",
+      "normalName": "Eurasian Spoonbill",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Podiceps cristatus",
+      "birdCode": "PR",
+      "conservationStatus": "LC",
+      "normalName": "Great Crested Grebe",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Podiceps nigricollis",
+      "birdCode": "PN",
+      "conservationStatus": "LC",
+      "normalName": "Black-necked Grebe",
+      "populationTrend": ""
+    },
+    {
+      "birdName": "Spheniscus demersus",
+      "birdCode": "SD",
+      "conservationStatus": "EN",
+      "normalName": "African Penguin",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Synthliboramphus antiquus",
+      "birdCode": "SA",
+      "conservationStatus": "LC",
+      "normalName": "Ancient Murrelet",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Tachybaptus ruficollis",
+      "birdCode": "TR",
+      "conservationStatus": "LC",
+      "normalName": "Little Grebe",
+      "populationTrend": "Decreasing"
+    },
+    {
+      "birdName": "Tadorna ferruginea",
+      "birdCode": "TF",
+      "conservationStatus": "LC",
+      "normalName": "Ruddy Shelduck",
+      "populationTrend": ""
+    }
+  ]

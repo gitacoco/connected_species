@@ -1,6 +1,8 @@
 var state = {
     data: null,
-    selectedIndicator: null
+    selectedButton: null,
+    sortedOption: null,
+    hoveredButton: null
 };
 
 function action(type, param) {
@@ -9,10 +11,16 @@ function action(type, param) {
         state.data = param;
         break;
 
-    case 'setSelectedIndicator':
-        state.selectedIndicator = param;
+    case 'setSelectedButton':
+        state.selectedButton = param;
+        break;
+
+    case 'setHoveredButton':
+        state.hoveredButton = param;
         break;
     }
+
+    // console.log(state)
 
     update();
 }

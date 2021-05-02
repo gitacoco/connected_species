@@ -1,10 +1,10 @@
 birdName,birdCode,conservationStatus,normalName,populationTrend
-Aix galericulata,AG,LC,Mandarin Duck,
+Aix galericulata,AG,LC,Mandarin Duck,Decreasing
 Alcedo atthis,AA,LC,Common Kingfisher,
 Amaurornis phoenicurus,AP,LC,White-breasted Waterhen,
-Anas acuta,AC,LC,Northern Pintail,
-Anas falcata,AL,NT,Falcated Duck,Decreasing
-Anas formosa,AR,LC,Baikal Teal,Increasing
+Anas acuta,AC,LC,Northern Pintail,Decreasing
+Mareca falcata,AL,NT,Falcated Duck,Decreasing
+Sibirionetta formosa,AR,LC,Baikal Teal,Increasing
 Ardea intermedia,AI,LC,Intermediate Egret,Decreasing
 Ardeola bacchus,AB,LC,Chinese Pond-heron,Stable
 Asio flammeus,AF,LC,Short-eared Owl,Decreasing
@@ -28,7 +28,7 @@ Larus argentatus,LA,LC,European Herring Gull,Decreasing
 Larus canus,LC,LC,Mew Gull,
 Larus ridibundus,LR,LC,Black-headed Gull,
 Megaceryle lugubris,ML,LC,Crested Kingfisher,Decreasing
-Mergus albellus,MA,LC,Smew,
+Mergus albellus,MA,LC,Smew,Decreasing
 Mergus merganser,MM,LC,Goosander,
 Numenius madagascariensis,NM,EN,Far Eastern Curlew,Decreasing
 Nycticorax nycticorax,NN,LC,Black-crowned Night-heron,Decreasing

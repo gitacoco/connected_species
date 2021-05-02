@@ -114,15 +114,103 @@ h4 {
   color: #4F4F4F;
   text-align: center;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   cursor: pointer;
+}
+
+/* .icon {
+  margin: 0 13px;
+  width: 32px;
+  height: 32px;
+} */
+
+#menu .item img {
+  margin: 0 13px;
 }
 
 #menu .item.selected, #menu .item:hover {
   background-color: #00778b;
   color: white;
 }
+/* 
+#geo {
+  background-image: url('../assets/pics/icons/b1.png');
+  background-size: cover;
+}
+
+.item:hover #geo {
+  background-image: url('../assets/pics/icons/b1-1.png');
+}
+
+.item.selected #geo {
+  background-image: url('../assets/pics/icons/b1-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#color {
+  background-image: url('../assets/pics/icons/b2.png');
+  background-size: cover;
+}
+
+.item:hover #color {
+  background-image: url('../assets/pics/icons/b2-1.png');
+}
+
+.item.selected #color {
+  background-image: url('../assets/pics/icons/b2-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#taxonomy {
+  background-image: url('../assets/pics/icons/b3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item:hover #taxonomy {
+  background-image: url('../assets/pics/icons/b3-1.png');
+}
+
+.item.selected #taxonomy {
+  background-image: url('../assets/pics/icons/b3-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#conservation {
+  background-image: url('../assets/pics/icons/b4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item:hover #conservation {
+  background-image: url('../assets/pics/icons/b4-1.png');
+}
+
+.item.selected #conservation {
+  background-image: url('../assets/pics/icons/b4-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#threats {
+  background-image: url('../assets/pics/icons/b5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item:hover #threats {
+  background-image: url('../assets/pics/icons/b5-1.png');
+}
+
+.item.selected #threats {
+  background-image: url('../assets/pics/icons/b5-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 /* Oringinal Menu */
 #buttons {
