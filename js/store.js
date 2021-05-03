@@ -1,26 +1,39 @@
 var state = {
-    data: null,
-    selectedButton: null,
-    sortedOption: null,
-    hoveredButton: null
+  data: null,
+  packData: null,
+  treeData: null,
+  selectedButton: null,
+  sortedOption: null,
+  hoveredButton: null,
+  nodeTransitionDelay: null,
 };
 
 function action(type, param) {
-    switch(type) {
-    case 'setData':
-        state.data = param;
-        break;
+  switch (type) {
+    case "setData":
+      state.data = param;
+      break;
 
-    case 'setSelectedButton':
-        state.selectedButton = param;
-        break;
+    case "setPackData":
+      state.packData = param;
+      break;
 
-    case 'setHoveredButton':
-        state.hoveredButton = param;
-        break;
-    }
+    case "setSelectedButton":
+      state.selectedButton = param;
+      break;
 
-    // console.log(state)
+    case "nodeTransitionDelay":
+      state.nodeTransitionDelay = param;
+      break;
+  }
 
-    update();
+  update();
+}
+
+function menuAction(type, param) {
+  switch (type) {
+    case "setHoveredButton":
+      state.hoveredButton = param;
+      break;
+  }
 }

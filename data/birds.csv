@@ -1,4 +1,11 @@
 birdName,birdCode,conservationStatus,normalName,populationTrend
+Status,,,,
+EX,,Status,,
+CE,,Status,,
+EN,,Status,,
+VU,,Status,,
+NT,,Status,,
+LC,,Status,,
 Aix galericulata,AG,LC,Mandarin Duck,Decreasing
 Alcedo atthis,AA,LC,Common Kingfisher,
 Amaurornis phoenicurus,AP,LC,White-breasted Waterhen,

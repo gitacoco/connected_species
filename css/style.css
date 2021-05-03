@@ -89,7 +89,7 @@ h4 {
 }
 
 #titles {
-  cursor: pointer;
+  /* cursor: pointer; */
   min-width: 254px;
 }
 
@@ -268,6 +268,10 @@ h4 {
 circle {
   stroke: #00778B;
   /* stroke-width: 4.5; */
+}
+
+#chart g {
+  cursor: pointer;
 }
 
 /* popup */

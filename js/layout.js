@@ -9,47 +9,85 @@ var config = {
     threatCoeffiX: 50
 };
 
+// function sortAccessor(d) {//打标签
+//     var index = d.data.id
+//     // if(index.length < 5) index = 0;
+//     return index;
+// }
+
+function getSortedData(data) {//排序和过滤
+    var sorted;
+    sorted = _.orderBy(data, d => d.data['normalName'])
+                _.remove(sorted, ["id", "RedList"])
+                _.remove(sorted, ["id", "EN"])
+                _.remove(sorted, ["id", "VU"])
+                _.remove(sorted, ["id", "NT"])
+                _.remove(sorted, ["id", "LC"]);
+
+    return sorted;
+}
+
+function visible(d){
+    return _.isEmpty(d.children)
+}
+
 function layout(data) {
     var cellWidth = config.width / config.numColumns;
     var cellHeight = cellWidth;
     var datasetSum = data.length;
 
-    var layoutData = data.map(function(d, i) {
-        var item = {};
+    var sortedData = getSortedData(data);
 
-        item.id = d.code;
+    var layoutData = sortedData.map(function(d, i) {
+        var item = {};
+        const dPre = d["data"]
+
+        item.id = dPre.id;
 
         if(state.selectedButton === null) {
             var column = i % config.numColumns;
             var row = Math.floor(i / config.numColumns);
             item.x = column * cellWidth + 0.5 * cellWidth;
             item.y = row * cellHeight + 0.5 * cellHeight;
-            item.galleryRadius = config.galleryRadius;
+            item.galleryRadius = config.galleryRadius; 
             item.defsRadius = 2 * config.galleryRadius;
             item.strokewidth = 4.5;
             item.canvasWidth = 1051.4;
-            item.canvasHeight = 1100
+            item.canvasHeight = 1100;
+            item.visible = visible(d);
         } else if(state.selectedButton === 'threats'){
             item.x = config.indentation + i * config.threatCoeffiX;
             item.y = config.threatCircleY;
             item.galleryRadius = 0.4 * config.galleryRadius;
             item.defsRadius = 2 * item.galleryRadius;
             item.strokewidth = 2.5;
-            item.canvasWidth = config.threatCoeffiX * datasetSum + 3 * config.indentation;
-            item.canvasHeight = 500
+            // 5 here is the number of objects in status Category
+            item.canvasWidth = config.threatCoeffiX * (datasetSum - (5 - 2)) + 3 * config.indentation - 5 * item.galleryRadius;
+            item.canvasHeight = 660;
+            item.visible = visible(d);
+        } else if(state.selectedButton === 'conservation'){
+            item.x = d.x;
+            item.y = d.y;
+            item.galleryRadius = d.r;
+            item.depth = d.depth;
+            item.defsRadius = 2 * item.galleryRadius;
+            item.strokewidth = 3;
+            item.canvasWidth = 1051.4;
+            item.canvasHeight = 700;
+            item.visible = true;
         }
 
-        item.code = d.code;
+        item.code = dPre.code;//picture index
 
         item.panelData = {
-        sciName: d.name,
-        normalName: d.normalName,
-        status: d.status,
-        trend: d.trend
+        sciName: dPre.name,
+        normalName: dPre.normalName,
+        status: dPre.status,
+        trend: dPre.trend
         }
 
-        return item;
+        return item;  
     });
 
     return layoutData;
-}
+ }

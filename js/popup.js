@@ -20,3 +20,26 @@ function handlePopupOn(e, d) {
 function handlePopupOff() {
     popup.hide();
 }
+
+//tooltip behavior
+function hoverBehavior(indicator, g, d) {
+    switch (indicator) {
+      case null:
+        g.style("pointer-events", "all")
+          .on("mouseover", handlePopupOn)
+          .on("mouseout", handlePopupOff);
+        // d3.select("#chart-wrapper")
+        //   .style('overflow-x', 'hidden')
+        break;
+  
+      case "conservation":
+        g.style("pointer-events", d.id > 5555 ? "auto" : "none");
+        break;
+  
+      case "threats":
+        g.style("pointer-events", "none");
+        d3.select("#chart-wrapper")
+          .style('overflow-y', 'hidden')
+        break;
+    }
+  }
