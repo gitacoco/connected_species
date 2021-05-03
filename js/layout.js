@@ -73,7 +73,7 @@ function layout(data) {
             item.defsRadius = 2 * item.galleryRadius;
             item.strokewidth = 3;
             item.canvasWidth = 1051.4;
-            item.canvasHeight = 700;
+            item.canvasHeight = 660;
             item.visible = true;
         }
 
