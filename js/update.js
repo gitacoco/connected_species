@@ -16,6 +16,9 @@ function updateGroup(d, i) {
 
   if (g.selectAll("*").empty()) initializeGroup(g, d, canvas);
 
+  if (state.selectedButton === 'geo') appendLabel(g, d, i);
+  if (state.selectedButton !== 'geo') removeLabel(g, d, i);
+
   hoverBehavior(state.selectedButton, g, d);
 
   g.transition() //location and opacity

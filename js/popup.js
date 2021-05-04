@@ -31,6 +31,10 @@ function hoverBehavior(indicator, g, d) {
         // d3.select("#chart-wrapper")
         //   .style('overflow-x', 'hidden')
         break;
+    
+    case "geo":
+        g.style("pointer-events", "none");
+        break;
   
       case "conservation":
         g.style("pointer-events", d.id > 5555 ? "auto" : "none");

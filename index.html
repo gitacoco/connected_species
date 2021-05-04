@@ -18,13 +18,13 @@
     var calcSize = function calcSize() {
       var cw = document.documentElement.clientWidth;
       var ch = document.documentElement.clientHeight;
-      if (cw < 1300) {
-        var scale = 0.35 + (cw - 375) * 0.3 / 400;
+      if (cw < 1200) {
+        var scale = 0.35 + (cw - 375) * 0.25 / 400;
         container.style.transform = 'translate(-50%, -50%) scale(' + scale + ')';
         container.style['-webkit-transform'] = 'translate(-50%, -50%) scale(' + scale + ')';
       } else {
         container.style.transform = 'translate(-50%, -50%)';
-        container.style['-webkit-transform'] = 'translate(-50%, -50%) scale(.85)';
+        container.style['-webkit-transform'] = 'translate(-50%, -50%) scale(.9)';
       }
     };
     calcSize();

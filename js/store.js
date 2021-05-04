@@ -6,6 +6,7 @@ var state = {
   sortedOption: null,
   hoveredButton: null,
   nodeTransitionDelay: null,
+  nodeTransitionDuration: null,
 };
 
 function action(type, param) {
@@ -24,6 +25,10 @@ function action(type, param) {
 
     case "nodeTransitionDelay":
       state.nodeTransitionDelay = param;
+      break;
+
+    case "nodeTransitionDuration":
+      state.nodeTransitionDuration = param;
       break;
   }
 

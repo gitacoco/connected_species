@@ -23,7 +23,10 @@ var menuItems = [
     label: "Conservation Status",
     icon: "assets/pics/icons/b4.png",
     iconActive: "assets/pics/icons/b4-1.png",
-    nodeTransitionDelay: 500,
+    nodeEnterDelay: 300,
+    nodeExitDelay: 0,
+    nodeEnterDuration: 1500,
+    nodeExitDuration: 500
   },
   {
     id: "threats",
@@ -65,21 +68,23 @@ function handleMenuLeave(e, d) {
 function handleMenuClick(e, d) {
   if (state.selectedButton !== null) {//如果有按钮被选中的时候
     if (state.selectedButton !== d.id) {//且点击的按钮和被选中的按钮不同的时候
-      let OriginalThis = buttons.select(".selected").datum();
+        let OriginalThis = buttons.select(".selected").datum();
       buttons
         .select(".item.selected img")
         .attr("src", OriginalThis.icon)
         .classed("selected", false);
     } else {//但点击的按钮和被选中的按钮相同的时候,或者
       if (d.id === "conservation") {
-        action("nodeTransitionDelay", 0);
+        action("nodeTransitionDelay", d.nodeExitDelay);
+        action("nodeTransitionDuration", d.nodeExitDuration);
       } 
       action("setSelectedButton", null);
       return;
     }} 
     //如果没有有按钮被选中的时候
     if (d.id === "conservation") {
-    action("nodeTransitionDelay", d.nodeTransitionDelay);
+    action("nodeTransitionDelay", d.nodeEnterDelay);
+    action("nodeTransitionDuration", d.nodeEnterDuration);
     }
   
     action("setSelectedButton", d.id);

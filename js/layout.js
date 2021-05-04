@@ -5,6 +5,7 @@ var config = {
     transitionDuration: 600,
     transitionDelay: 8,
     indentation: 30,
+    geoCoeffiY: 60,
     threatCircleY: 300,
     threatCoeffiX: 50
 };
@@ -54,6 +55,15 @@ function layout(data) {
             item.strokewidth = 4.5;
             item.canvasWidth = 1051.4;
             item.canvasHeight = 1100;
+            item.visible = visible(d);
+        } else if(state.selectedButton === 'geo'){
+            item.x = 35
+            item.y = config.indentation + i * config.geoCoeffiY
+            item.galleryRadius = 0.35 * config.galleryRadius
+            item.defsRadius = 2 * item.galleryRadius
+            item.strokewidth = 2.5;
+            item.canvasWidth = 1051.4;//需要改窄，transition 也要改
+            item.canvasHeight = 2700;
             item.visible = visible(d);
         } else if(state.selectedButton === 'threats'){
             item.x = config.indentation + i * config.threatCoeffiX;
