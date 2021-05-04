@@ -23,10 +23,10 @@ var menuItems = [
     label: "Conservation Status",
     icon: "assets/pics/icons/b4.png",
     iconActive: "assets/pics/icons/b4-1.png",
-    nodeEnterDelay: 300,
-    nodeExitDelay: 0,
+    nodeEnterDelay: 0,
     nodeEnterDuration: 1500,
-    nodeExitDuration: 500
+    nodeExitDelay: 0,
+    nodeExitDuration: 0
   },
   {
     id: "threats",

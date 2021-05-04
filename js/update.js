@@ -70,7 +70,8 @@ function updateChart() {
     .selectAll("g")
     .data(layoutData, (d) => d.id) //key function
     .join("g")
-    .each(updateGroup);
+    .each(updateGroup)
+    // .each(updateRoot);
 }
 
 function update() {
