@@ -54,7 +54,7 @@ function layout(data) {
             item.defsRadius = 2 * config.galleryRadius;
             item.strokewidth = 4.5;
             item.canvasWidth = 1051.4;
-            item.canvasHeight = 1100;
+            item.canvasHeight = 1130;
             item.visible = visible(d);
         } else if(state.selectedButton === 'geo'){
             item.x = 35
