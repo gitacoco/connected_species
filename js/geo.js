@@ -13,14 +13,31 @@ function appendLabel(g, d, i) {
     .attr("dy", "0.3em")
     .text(labelText);
 
+  d3.select('#map-wrapper')
+    .style('z-index', 0)
+
   d3.select("#map")
-    .style("width", "838px")
-    .style("height", "600px")
+    .style('z-index', 0)
+    .style("width", "1220px")
+    .style("height", "900px")
     .style("position", "fixed")
     .transition()
     .duration(1000)
     .delay(500)
     .style("opcatity", "1");
+
+  d3.select("#control")
+    .style("padding-bottom", "70px")
+    .style(
+        "background",
+        "linear-gradient(to bottom, #e9e9e9cb 75%, #e9e9e900)"
+      );
+
+  d3.select("#footer").style("background-color", "#e9e9e956");
+
+  d3.select('#chart-wrapper')
+    .style('height', '651px')
+    .style('overflow-y', 'scroll');
 
   mapGenerator();
 }
@@ -28,23 +45,45 @@ function appendLabel(g, d, i) {
 function removeLabel(d, i) {
   d3.select("#chart").selectAll("text").transition().duration(300).remove();
 
-  d3.select("#map")
-    .style("width", "0")
-    .style("height", "0")
-    .style("opcatity", "0");
+  d3.select("#map").style("width", 0).style("height", 0).style("opcatity", 0);
+
+  d3.select("#control")
+    .style("padding-bottom", "55px")
+    .style(
+        "background",
+        "linear-gradient(to bottom, #e9e9e9 88%, rgba(233, 233, 233, 0))"
+      );
+
+  d3.select("#footer").style("background-color", "#e9e9e9");
+
+  d3.select('#chart-wrapper')
+  .style('height', 'auto')
+  .style('overflow-y', 'scroll');
 }
 
 var map = L.map("map");
 
+//water color
+// var tileLayer = L.tileLayer(
+//   "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}",
+//   {
+//     attribution:
+//       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+//     subdomains: "abcd",
+//     minZoom: 1,
+//     maxZoom: 16,
+//     ext: "jpg",
+//   }
+// );
+
+//Esri.WorldTerrain
 var tileLayer = L.tileLayer(
-  "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}",
+  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}",
   {
     attribution:
-      'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    subdomains: "abcd",
-    minZoom: 1,
-    maxZoom: 16,
-    ext: "jpg",
+      "Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS",
+    minZoom: 1.5,
+    maxZoom: 13,
   }
 );
 

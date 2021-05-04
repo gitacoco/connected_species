@@ -9,13 +9,23 @@ var menuItems = [
     id: "color",
     label: "Distinctive Color",
     icon: "assets/pics/icons/b2.png",
-    iconActive: "assets/pics/icons/b2-1.png"
+    iconActive: "assets/pics/icons/b2-1.png",
+    mock: "assets/pics/color.png",
+    mock_width: "1000px",
+    mock_height: "500px",
+    mock_left_margin: "20px",
+    mock_top_margin: "150px"
   },
   {
     id: "taxonomy",
     label: "Taxonomy of Naming",
     icon: "assets/pics/icons/b3.png",
-    iconActive: "assets/pics/icons/b3-1.png"
+    iconActive: "assets/pics/icons/b3-1.png",
+    mock: "assets/pics/tax.png",
+    mock_width: "550px",
+    mock_height: "550px",
+    mock_left_margin: "250px",
+    mock_top_margin: "70px"
   },
   {
     id: "conservation",
@@ -38,53 +48,56 @@ var menuItems = [
 
 var buttons = d3.select("#menu");
 
-function handleMenuEnter(e, d) {
-  menuAction("setHoveredButton", d.id);
-  if (state.selectedButton !== null) {
-    //如果有任何一个按钮被选中的时候
-    if (state.hoveredButton === state.selectedButton) {
-      //并且hover的按钮和选中的按钮相同时
-      return;
-    } else if (state.hoveredButton !== state.selectedButton) {
-      //并且hover的按钮和选中的按钮不同时
-      d3.select(this).select("img").attr("src", d.iconActive);
-    }
-  } //没有任何按钮被选中的时候
-  d3.select(this).select("img").attr("src", d.iconActive);
+function mockupAppend(d) {
+    d3.select('#mock-container')
+    .classed('columnAll', true)
+    .style('width', `${d.mock_width}`)
+    .style('height', `${d.mock_height}`)
+    .style('margin-left', `${d.mock_left_margin}`)
+    .style('margin-top', `${d.mock_top_margin}`)
+    .style('background-size', 'contain')
+    .style('background-repeat', 'no-repeat')
+    .style('background-image', `url('${d.mock}')`)
 }
 
-function handleMenuLeave(e, d) {
-  if (state.selectedButton !== null) {
-    //如果有任何一个按钮被选中的时候
-    if (state.hoveredButton === state.selectedButton) {
-      //并且hover的按钮和选中的按钮相同时
-      return;
-    }
-  } //并且hover的按钮和选中的按钮不同时 或 没有任何按钮被选中的时候
-  d3.select(this).select("img").attr("src", d.icon);
-  menuAction("setHoveredButton", null);
+function mockupRemove(d) {
+    d3.select('#mock-container')
+    .style('width', 0)
+    .style('height', 0)
+    .style('margin-left', 0)
+    .style('margin-top', 0)
 }
 
 function handleMenuClick(e, d) {
-  if (state.selectedButton !== null) {//如果有按钮被选中的时候
-    if (state.selectedButton !== d.id) {//且点击的按钮和被选中的按钮不同的时候
+  if (state.selectedButton !== null) {//如果有按钮被选中
+    if (state.selectedButton !== d.id) {//如果点击的按钮和被选中的按钮不同
+        if (state.selectedButton === "taxonomy" || "color") {
+            mockupRemove(d)
+        }
+
         let OriginalThis = buttons.select(".selected").datum();
       buttons
         .select(".item.selected img")
         .attr("src", OriginalThis.icon)
         .classed("selected", false);
-    } else {//但点击的按钮和被选中的按钮相同的时候,或者
+        
+    } else {//但点击的就是被选中的按钮
       if (d.id === "conservation") {
         action("nodeTransitionDelay", d.nodeExitDelay);
         action("nodeTransitionDuration", d.nodeExitDuration);
-      } 
+      } else if (d.id === "taxonomy" || "color") {
+        mockupRemove(d)
+    }
       action("setSelectedButton", null);
       return;
     }} 
+
     //如果没有有按钮被选中的时候
     if (d.id === "conservation") {
     action("nodeTransitionDelay", d.nodeEnterDelay);
     action("nodeTransitionDuration", d.nodeEnterDuration);
+    } else if (d.id === "taxonomy" || "color") {
+        mockupAppend(d)
     }
   
     action("setSelectedButton", d.id);
@@ -92,6 +105,34 @@ function handleMenuClick(e, d) {
     .select("img")
     .attr("src", d.iconActive);
 }
+
+function handleMenuEnter(e, d) {
+    menuAction("setHoveredButton", d.id);
+    if (state.selectedButton !== null) {
+      //如果有任何一个按钮被选中的时候
+      if (state.hoveredButton === state.selectedButton) {
+        //并且hover的按钮和选中的按钮相同时
+        return;
+      } else if (state.hoveredButton !== state.selectedButton) {
+        //并且hover的按钮和选中的按钮不同时
+        d3.select(this).select("img").attr("src", d.iconActive);
+      }
+    } //没有任何按钮被选中的时候
+    d3.select(this).select("img").attr("src", d.iconActive);
+  }
+  
+  function handleMenuLeave(e, d) {
+    if (state.selectedButton !== null) {
+      //如果有任何一个按钮被选中的时候
+      if (state.hoveredButton === state.selectedButton) {
+        //并且hover的按钮和选中的按钮相同时
+        return;
+      }
+    } //并且hover的按钮和选中的按钮不同时 或 没有任何按钮被选中的时候
+    d3.select(this).select("img").attr("src", d.icon);
+    menuAction("setHoveredButton", null);
+  }
+  
 
 function getHtml(d) {
   // var iconHtml = "<div id=" + d.id + " class=icon" +"></div>"

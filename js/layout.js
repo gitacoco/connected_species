@@ -62,8 +62,8 @@ function layout(data) {
             item.galleryRadius = 0.35 * config.galleryRadius
             item.defsRadius = 2 * item.galleryRadius
             item.strokewidth = 2.5;
-            item.canvasWidth = 1051.4;//需要改窄，transition 也要改
-            item.canvasHeight = 2700;
+            item.canvasWidth = 250;//需要改窄，transition 也要改
+            item.canvasHeight = 2650;
             item.visible = visible(d);
         } else if(state.selectedButton === 'threats'){
             item.x = config.indentation + i * config.threatCoeffiX;

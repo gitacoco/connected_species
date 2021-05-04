@@ -68,7 +68,7 @@ function updateChart() {
 
   d3.select("#chart")
     .selectAll("g")
-    .data(layoutData, (d) => d.id) //key function
+    .data(layoutData, d => d.id) //key function
     .join("g")
     .each(updateGroup)
     // .each(updateRoot);
