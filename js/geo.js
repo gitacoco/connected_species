@@ -23,7 +23,7 @@ function appendLabel(g, d, i) {
     .style("position", "fixed")
     .transition()
     .duration(1000)
-    .delay(500)
+    // .delay(2000)
     .style("opcatity", "1");
 
   d3.select("#control")
@@ -83,7 +83,7 @@ var tileLayer = L.tileLayer(
     attribution:
       "Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS",
     minZoom: 1.5,
-    maxZoom: 13,
+    maxZoom: 10,
   }
 );
 
@@ -91,5 +91,31 @@ function mapGenerator() {
   tileLayer.addTo(map);
 
   //The first argument is an array [latitude, longitude] and the second argument a zoom level.
-  map.setView([8.7832, 184.5085], 1.5);
+//   map.setView([8.7832, 184.5085], 1.5);
+  map.setView([52.5, -2], 6);
+//   map.scrollWheelZoom.disable();
+  map.zoomControl.setPosition('bottomright');
 }
+// 碰壁后禁止拖拽
+// var bounds = L.latLngBounds([[51.55, -0.2], [51.45, 0]]);
+// map.setMaxBounds(bounds);
+// map.on('drag', function() {
+//     map.panInsideBounds(bounds, { animate: false });
+// });
+
+//mock data!! only for testing
+
+var mapData;
+
+function addMarkers() {
+    mapData.forEach(function(d) {
+      var marker = L.circleMarker([+d.latitude, +d.longitude]);
+      marker.addTo(map);
+    })
+  }
+
+d3.csv('data/map_mock_data.csv')
+    .then(function(csv) {
+    mapData = csv 
+    addMarkers();
+});
