@@ -153,6 +153,12 @@ h4 {
   z-index: 0;
 }
 
+.leaflet-control-container { 
+  position: absolute; 
+  right: 6%;
+  bottom: 15%;
+ } 
+
 /* Oringinal Menu */
 #buttons {
   /* padding-bottom: 25px; */

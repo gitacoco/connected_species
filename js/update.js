@@ -6,6 +6,8 @@ function initializeGroup(g, d, canvas) {
 
   canvas.attr("width", d.canvasWidth);
 
+  g.append('rect')
+
   g.append("circle");
   g.append("svg:defs").append("pattern").append("image");
 }
@@ -54,6 +56,18 @@ function updateGroup(d, i) {
     .attr("r", d.galleryRadius)
     .attr("stroke-width", d.id > 5555 ? d.strokewidth : 0)
     .style("fill", d.id > 5555 ? `url(#${d.code})` : "#00768b69");
+
+  g.select('rect')
+    // .transition()
+    // .duration(500)
+    // .delay(500)
+    .attr('x', d.x - 62)
+    .attr('y', d.y * 0.0004 - 25)
+    .attr('width', state.selectedButton === 'geo' ? 207 : 0)
+    .attr('height', 50)
+    .attr('rx', 5)
+    .style('fill', 'white')
+    .style("opacity", state.selectedButton === 'geo' ? 0.75 : 0)
 
   canvas
     .transition()

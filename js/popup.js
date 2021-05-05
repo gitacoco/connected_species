@@ -21,6 +21,16 @@ function handlePopupOff() {
     popup.hide();
 }
 
+function handleGeo() {
+    d3.select(this).select('rect')
+    .style("opacity", 1)
+}
+
+function handleGeoOff() {
+    d3.select(this).select('rect')
+    .style("opacity", 0.75)
+}
+
 //tooltip behavior
 function hoverBehavior(indicator, g, d) {
     switch (indicator) {
@@ -33,7 +43,9 @@ function hoverBehavior(indicator, g, d) {
         break;
     
     case "geo":
-        g.style("pointer-events", "none");
+        g.style("pointer-events", "all")
+        .on("mouseover", handleGeo)
+        .on("mouseout", handleGeoOff);
         break;
   
       case "conservation":

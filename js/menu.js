@@ -69,8 +69,11 @@ function mockupRemove(d) {
 }
 
 function handleMenuClick(e, d) {
-  if (state.selectedButton !== null) {//如果有按钮被选中
-    if (state.selectedButton !== d.id) {//如果点击的按钮和被选中的按钮不同
+var hasButtonSelected = state.selectedButton !== null;
+var differButtonClicked = state.selectedButton !== d.id;
+
+  if (hasButtonSelected) {
+    if (differButtonClicked) {
         if (state.selectedButton === "taxonomy" || "color") {
             mockupRemove(d)
         }
