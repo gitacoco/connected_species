@@ -63,11 +63,11 @@ function updateGroup(d, i) {
     .attr('height', 50)
     .attr('rx', 5)
     .style('fill', 'white')
+    .style("opacity", state.selectedButton === 'geo' ? 0.75 : 0)
     .transition()
     .duration(1000)
     .delay(() => state.selectedButton === 'geo' ? 500 : 0)
     .attr('width', state.selectedButton === 'geo' ? 207 : 0)
-    .style("opacity", state.selectedButton === 'geo' ? 0.75 : 0)
 
   canvas
     .transition()
