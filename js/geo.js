@@ -29,7 +29,8 @@ function appendLabel(g, d, i) {
       "linear-gradient(to bottom, #e9e9e9cb 75%, #e9e9e900)"
     );
 
-  d3.select("#footer").style("background-color", "#e9e9e956");
+  d3.select("#footer")
+  .style("background-color", "#e9e9e956");
 
   d3.select("#chart-wrapper")
     .style("height", "651px")

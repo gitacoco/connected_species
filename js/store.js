@@ -5,8 +5,8 @@ var state = {
   selectedButton: null,
   sortedOption: null,
   hoveredButton: null,
-  nodeTransitionDelay: null,
-  nodeTransitionDuration: null,
+//   nodeTransitionDelay: null,
+//   nodeTransitionDuration: null,
 };
 
 function action(type, param) {
@@ -23,13 +23,13 @@ function action(type, param) {
       state.selectedButton = param;
       break;
 
-    case "nodeTransitionDelay":
-      state.nodeTransitionDelay = param;
-      break;
+    // case "nodeTransitionDelay":
+    //   state.nodeTransitionDelay = param;
+    //   break;
 
-    case "nodeTransitionDuration":
-      state.nodeTransitionDuration = param;
-      break;
+    // case "nodeTransitionDuration":
+    //   state.nodeTransitionDuration = param;
+    //   break;
   }
 
   update();

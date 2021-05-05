@@ -55,7 +55,7 @@ function packDataGenerator() {
     d3.select("#rootNodes")
       .selectAll("circle")
       .transition()
-      .duration(state.nodeTransitionDuration)
-      .delay(state.nodeTransitionDelay)
+      .duration(() => state.selectedButton === 'conservation' ? 1500 : 200)
+      .delay(() => state.selectedButton === 'conservation' ? 500 : 0)
       .style("opacity", state.selectedButton === 'conservation' ? 1 : 0)
   }

@@ -33,10 +33,6 @@ var menuItems = [
     label: "Conservation Status",
     icon: "assets/pics/icons/b4.png",
     iconActive: "assets/pics/icons/b4-1.png",
-    nodeEnterDelay: 0,
-    nodeEnterDuration: 1500,
-    nodeExitDelay: 0,
-    nodeExitDuration: 0
   },
   {
     id: "threats",
@@ -85,10 +81,7 @@ var differButtonClicked = state.selectedButton !== d.id;
         .classed("selected", false);
         
     } else {//但点击的就是被选中的按钮
-      if (d.id === "conservation") {
-        action("nodeTransitionDelay", d.nodeExitDelay);
-        action("nodeTransitionDuration", d.nodeExitDuration);
-      } else if (d.id === "taxonomy" || "color") {
+      if (d.id === "taxonomy" || "color") {
         mockupRemove(d)
     }
       action("setSelectedButton", null);
@@ -96,10 +89,7 @@ var differButtonClicked = state.selectedButton !== d.id;
     }} 
 
     //如果没有有按钮被选中的时候
-    if (d.id === "conservation") {
-    action("nodeTransitionDelay", d.nodeEnterDelay);
-    action("nodeTransitionDuration", d.nodeEnterDuration);
-    } else if (d.id === "taxonomy" || "color") {
+    if (d.id === "taxonomy" || "color") {
         mockupAppend(d)
     }
   
