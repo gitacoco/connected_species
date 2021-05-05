@@ -23,10 +23,10 @@ function appendLabel(g, d, i) {
     .style("opcatity", "1");
 
   d3.select("#control")
-    .style("padding-bottom", "70px")
+    .style("padding-bottom", "60px")
     .style(
       "background",
-      "linear-gradient(to bottom, #e9e9e9cb 75%, #e9e9e900)"
+      "linear-gradient(to bottom, #e9e9e9cb 80%, #e9e9e900)"
     );
 
   d3.select("#footer")

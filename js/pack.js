@@ -17,7 +17,7 @@ function packDataGenerator() {
       .parentId((d) => d.status);
   
     const rootNode = stratify(statusCategory).sum((d) => d.value);
-    const pack = d3.pack().size([1051.4, 650]).padding(20);
+    const pack = d3.pack().size([1051.4, 620]).padding(20);
     //onvert it back to array format
     const packData = pack(rootNode).descendants(); 
     //create  ordinal scale of color. The high the depth, the lower it is inside the tree
