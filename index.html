@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/checkbox.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7DZM9J5H2E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-7DZM9J5H2E');
+  </script>
 </head>
 
 <body style="overflow: hidden;">
@@ -98,22 +107,22 @@
           href="https://github.com/gitacoco/thesis-project">my github repo</a>. Any suggestion is<br>welcome to email <a
           href="mailto:jianz244@newschool.edu">Zhibang Jiang</a>.</div>
           `
-        $(document).ready(function(){
-          $(".checkbox").html(content)
-        }
-        )
+    $(document).ready(function () {
+      $(".checkbox").html(content)
+    }
+    )
 
-      $("#collapse").on('click', function () {
-        $(".checkbox").html('')
-        $("#collapse").html('')
-        $("#expand").html('<a>Sorry, I wanna take a second look 😂</a>')
-      })
+    $("#collapse").on('click', function () {
+      $(".checkbox").html('')
+      $("#collapse").html('')
+      $("#expand").html('<a>Sorry, I wanna take a second look 😂</a>')
+    })
 
-      $("#expand").on('click', function () {
-        $(".checkbox").html(content)
-        $("#collapse").html('<a>Stop prattling and collapse this! 😑</a>')
-        $("#expand").html('')
-      })
+    $("#expand").on('click', function () {
+      $(".checkbox").html(content)
+      $("#collapse").html('<a>Stop prattling and collapse this! 😑</a>')
+      $("#expand").html('')
+    })
 
 
   </script>
