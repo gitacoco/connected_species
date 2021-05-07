@@ -10,6 +10,13 @@ var config = {
     threatCoeffiX: 50
 };
 
+statusIndex = {
+    EN: 'Endangered',
+    VU: 'Vulnerable',
+    NT: 'Near Threatened',
+    LC: 'Least Concern'
+}
+
 // function sortAccessor(d) {//打标签
 //     var index = d.data.id
 //     // if(index.length < 5) index = 0;
@@ -89,10 +96,12 @@ function layout(data) {
 
         item.code = dPre.code;//picture index
 
+        
+
         item.panelData = {
         sciName: dPre.name,
         normalName: dPre.normalName,
-        status: dPre.status,
+        status: statusIndex[dPre.status],
         trend: dPre.trend
         }
 

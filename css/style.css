@@ -3,6 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Doppio+One&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* index */
+#todolist {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+
 /*global*/
 html,
 body {
