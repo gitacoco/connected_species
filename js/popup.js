@@ -45,7 +45,9 @@ function hoverBehavior(indicator, g, d) {
       break;
 
     case "conservation":
-      g.style("pointer-events", d.id > 5555 ? "all" : "none");
+      g.style("pointer-events", d.id > 5555 ? "all" : "none")
+        .on("mouseover", handlePopupOn)
+        .on("mouseout", handlePopupOff);
       d3.select("#chart-wrapper").style("overflow-y", "hidden");
       break;
 

@@ -106,6 +106,7 @@ function layout(data) {
         }
 
         return item;  
+        
     });
 
     return layoutData;
