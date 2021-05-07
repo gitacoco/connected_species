@@ -96,43 +96,43 @@ function mapGenerator() {
 //   map.zoomControl.setPosition('verticalcenterright');
 }
 
-function getMapData() {
-  d3.csv("data/map_mock_data.csv").then(function (csv) {
-    mapData = csv;
-    addMarkers();
-  });
-}
+// function getMapData() {
+//   d3.csv("data/map_mock_data.csv").then(function (csv) {
+//     mapData = csv;
+//     addMarkers();
+//   });
+// }
 
-function addMarkers() {
-    mapData.forEach((d) => {
-        var marker = L.circleMarker([+d.latitude, +d.longitude]);
-        var inService = d.chargeDeviceStatus === 'In service';
-        var color = colorScale[d.deviceControllerName] || '#aaa';
-        var inService = d.chargeDeviceStatus === 'In service';
+// function addMarkers() {
+//     mapData.forEach((d) => {
+//         var marker = L.circleMarker([+d.latitude, +d.longitude]);
+//         var inService = d.chargeDeviceStatus === 'In service';
+//         var color = colorScale[d.deviceControllerName] || '#aaa';
+//         var inService = d.chargeDeviceStatus === 'In service';
         
-        if (inService) {
-            marker.setStyle({
-                radius: 8,
-                fillColor: color,
-                fillOpacity: 1,
-                color: '#ddd',//the colour of the circle’s outline
-                weight: 0.25//sets the thickness of the circle’s outline
-            });
-        } else {
-            marker.setStyle({
-                radius: 8,
-                fillColor: '#eee',
-                fillOpacity: 0.5,
-                color: '#777',
-                weight: 1
-            });
-        }
+//         if (inService) {
+//             marker.setStyle({
+//                 radius: 8,
+//                 fillColor: color,
+//                 fillOpacity: 1,
+//                 color: '#ddd',//the colour of the circle’s outline
+//                 weight: 0.25//sets the thickness of the circle’s outline
+//             });
+//         } else {
+//             marker.setStyle({
+//                 radius: 8,
+//                 fillColor: '#eee',
+//                 fillOpacity: 0.5,
+//                 color: '#777',
+//                 weight: 1
+//             });
+//         }
 
-        marker.addTo(map);
-    });
-  }
+//         marker.addTo(map);
+//     });
+//   }
 
-getMapData();
+// getMapData();
 
 //water color
 // var tileLayer = L.tileLayer(

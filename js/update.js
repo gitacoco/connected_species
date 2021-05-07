@@ -22,6 +22,7 @@ function updateGroup(d, i) {
   if (state.selectedButton !== 'geo') removeLabel(g, d, i);
 
   hoverBehavior(state.selectedButton, g, d);
+  // itemClickBehavior(state.selectedButton, g, d);
 
   g.transition() //location and opacity
     .duration(() => state.selectedButton === 'geo' ? 700: config.transitionDuration)
@@ -76,15 +77,16 @@ function updateGroup(d, i) {
     .attr("height", d.canvasHeight);
 }
 
-function updateChart() {
-  var layoutData = layout(state.packData);
+var layoutData;
 
+function updateChart() {
+  layoutData = layout(state.packData);
+  // console.log(layoutData)
   d3.select("#chart")
     .selectAll("g")
     .data(layoutData, d => d.id) //key function
     .join("g")
-    .each(updateGroup)
-    // .each(updateRoot);
+    .each(updateGroup);
 }
 
 function update() {

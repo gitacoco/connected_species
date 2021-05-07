@@ -1,5 +1,6 @@
 var state = {
   data: null,
+  normalizedData: null,
   packData: null,
   treeData: null,
   selectedButton: null,
@@ -23,13 +24,9 @@ function action(type, param) {
       state.selectedButton = param;
       break;
 
-    // case "nodeTransitionDelay":
-    //   state.nodeTransitionDelay = param;
-    //   break;
-
-    // case "nodeTransitionDuration":
-    //   state.nodeTransitionDuration = param;
-    //   break;
+    case "setNormalizedData":
+     state.normalizedData = param;
+     break;
   }
 
   update();
