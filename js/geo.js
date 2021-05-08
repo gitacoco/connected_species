@@ -90,9 +90,8 @@ function getMapData() {
   d3.json("data/sound_data.json").then(function (json) {
     mapData = json;
     addMarkers();
-    console.log(mapData)
+    console.log(mapData);
   });
-  
 }
 
 var markers = new L.FeatureGroup();
@@ -102,17 +101,17 @@ function addMarkers() {
     // d3.select("#chart g").classed("selected", true); //temporary
     // itemClickAction("selectedItem", "SD");
     for (var i = 0; i < mapData.length; i++) {
-      mapData[i]["recordings"].slice(0, 15).forEach((d,i) => {
-        if ((d.lat !== undefined) && (d.lng !== undefined)) {
+      mapData[i]["recordings"].slice(0, 15).forEach((d, i) => {
+        if (d.lat !== undefined && d.lng !== undefined) {
           var marker = L.circleMarker([+d.lat, +d.lng]);
         }
 
         marker.setStyle({
-            radius: 7,
-            weight: 0.25
-          });
+          radius: 7,
+          weight: 0.25,
+        });
 
-        marker.bindPopup(createPopup(d,i));
+        marker.bindPopup(popup).bindPopup(createHtml(d, i));
 
         markers.addLayer(marker);
 
@@ -121,49 +120,52 @@ function addMarkers() {
     }
   } else {
     const selectedBird = mapData.find(
-        (element) => element.birdCode === state.selectedItem
-      );
-      selectedBird["recordings"].forEach((d,i) => {
-        if ((d.lat !== undefined) && (d.lng !== undefined)) {
-          var marker = L.circleMarker([+d.lat, +d.lng]);
-        }
+      (element) => element.birdCode === state.selectedItem
+    );
+    selectedBird["recordings"].forEach((d, i) => {
+      if (d.lat !== undefined && d.lng !== undefined) {
+        var marker = L.circleMarker([+d.lat, +d.lng]);
+      }
 
-        marker.setStyle({
-            radius: 7,
-            weight: 0.25
-          });
-
-        marker.bindPopup(createPopup(d,i));
-
-        markers.addLayer(marker);
-        map.addLayer(markers);
+      marker.setStyle({
+        radius: 7,
+        weight: 0.25,
       });
+
+      marker.bindPopup(popup).bindPopup(createHtml(d, i));
+
+      markers.addLayer(marker);
+      map.addLayer(markers);
+    });
   }
 }
 
 function clearMarkers() {
-    markers.clearLayers();
+  markers.clearLayers();
 }
 
-function createPopup(d,i) {
-    var html = 
-    `
-    <audio controls autoplay><source src="${d.file}">Your browser does not support the audio element.</audio>
-    <h3>Species: ${mapData[i].birdName}</h3>
+var popup = L.popup({
+  closeButton: false,
+});
+
+function createHtml(d, i) {
+  var html = `
+    <audio controls autoplay loop style="margin-top: 10px"><source src="${d.file}">Your browser does not support the audio element.</audio>
+    <h2>${mapData[i].birdName}</h2>
     <h3>Length: ${d.length}</h3>
     <h3>Type: ${d.type}</h3>
     <h3>Time: ${d.date} ${d.time}</h3>
     <h3>Country: ${d.country}</h3>
-    <h3>Recordist: ${d.recordist}</h3>
-    `
-    return html;
+    <h3 style="margin-bottom: 25px">Recordist: ${d.recordist}</h3>
+    `;
+  return html;
 }
 
-map.on('popupopen', function(centerMarker) {
-    const zoomLvl = 3;
-    var cM = map.project(centerMarker.popup._latlng);
-    cM.y -= centerMarker.popup._container.clientHeight/2
-    map.setView(map.unproject(cM), zoomLvl, {animate: true});
+map.on("popupopen", function (centerMarker) {
+  const zoomLvl = 3;
+  var cM = map.project(centerMarker.popup._latlng);
+  cM.y -= centerMarker.popup._container.clientHeight / 2;
+  map.setView(map.unproject(cM), zoomLvl, { animate: true });
 });
 
 getMapData();
