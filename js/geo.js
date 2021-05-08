@@ -155,7 +155,8 @@ function createHtml(d, i) {
     <h3>Type: ${d.type}</h3>
     <h3>Time: ${d.date} ${d.time}</h3>
     <h3>Country: ${d.country}</h3>
-    <h3 style="margin-bottom: 25px">Recordist: ${d.recordist}</h3>
+    <h3>Recordist: ${d.recordist}</h3>
+    <h3 style="margin-bottom: 25px">Source: <a href="${d.url}" target="_blank">xeno-canto</a></h3>
     `;
   return html;
 }
@@ -166,7 +167,8 @@ function createHtmlSelected(d) {
       <h3>Type: ${d.type}</h3>
       <h3>Time: ${d.date} ${d.time}</h3>
       <h3>Country: ${d.country}</h3>
-      <h3 style="margin-bottom: 25px">Recordist: ${d.recordist}</h3>
+      <h3>Recordist: ${d.recordist}</h3>
+      <h3 style="margin-bottom: 25px">Source: <a href="${d.url}" target="_blank">xeno-canto</a></h3>
       `;
     return html;
   }
