@@ -102,17 +102,17 @@ function addMarkers() {
     // d3.select("#chart g").classed("selected", true); //temporary
     // itemClickAction("selectedItem", "SD");
     for (var i = 0; i < mapData.length; i++) {
-      mapData[i]["recordings"].slice(0, 15).forEach((d) => {
+      mapData[i]["recordings"].slice(0, 15).forEach((d,i) => {
         if ((d.lat !== undefined) && (d.lng !== undefined)) {
           var marker = L.circleMarker([+d.lat, +d.lng]);
         }
 
         marker.setStyle({
-            radius: 6,
+            radius: 7,
             weight: 0.25
           });
 
-        marker.bindPopup('<h2>Recordist: ' + d.recordist + '</h2>');
+        marker.bindPopup(createPopup(d,i));
 
         markers.addLayer(marker);
 
@@ -123,15 +123,17 @@ function addMarkers() {
     const selectedBird = mapData.find(
         (element) => element.birdCode === state.selectedItem
       );
-      selectedBird["recordings"].forEach((d) => {
+      selectedBird["recordings"].forEach((d,i) => {
         if ((d.lat !== undefined) && (d.lng !== undefined)) {
           var marker = L.circleMarker([+d.lat, +d.lng]);
         }
 
         marker.setStyle({
-            radius: 6,
+            radius: 7,
             weight: 0.25
           });
+
+        marker.bindPopup(createPopup(d,i));
 
         markers.addLayer(marker);
         map.addLayer(markers);
@@ -143,8 +145,16 @@ function clearMarkers() {
     markers.clearLayers();
 }
 
-// var popup = L.popup({
-//     maxWidth: 400
-// }).setContent('<p>bird name:' + mapData[i]["recordings"].birdName + '</p>')
+function createPopup(d,i) {
+    var html = 
+    `<h3>Species: ${mapData[i].birdName}</h3>
+    <h3>Length: ${d.length}</h3>
+    <h3>Type: ${d.type}</h3>
+    <h3>Time: ${d.date} ${d.time}</h3>
+    <h3>Country: ${d.country}</h3>
+    <h3>Recordist: ${d.recordist}</h3>
+    `
+    return html;
+}
 
 getMapData();
