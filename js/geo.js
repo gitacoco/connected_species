@@ -111,7 +111,7 @@ function addMarkers() {
           weight: 0.25,
         });
 
-        marker.bindPopup(popup).bindPopup(createHtml(d, i));
+        marker.bindPopup(createHtml(d, i));
 
         markers.addLayer(marker);
 
@@ -122,7 +122,7 @@ function addMarkers() {
     const selectedBird = mapData.find(
       (element) => element.birdCode === state.selectedItem
     );
-    selectedBird["recordings"].forEach((d, i) => {
+    selectedBird["recordings"].forEach((d) => {
       if (d.lat !== undefined && d.lng !== undefined) {
         var marker = L.circleMarker([+d.lat, +d.lng]);
       }
@@ -132,7 +132,7 @@ function addMarkers() {
         weight: 0.25,
       });
 
-      marker.bindPopup(popup).bindPopup(createHtml(d, i));
+      marker.bindPopup(createHtmlSelected(d));
 
       markers.addLayer(marker);
       map.addLayer(markers);
@@ -144,9 +144,9 @@ function clearMarkers() {
   markers.clearLayers();
 }
 
-var popup = L.popup({
-  closeButton: false,
-});
+// var popup = L.popup({
+//   closeButton: false,
+// });
 
 function createHtml(d, i) {
   var html = `
@@ -161,11 +161,30 @@ function createHtml(d, i) {
   return html;
 }
 
+function createHtmlSelected(d) {
+    var html = `
+      <audio controls autoplay loop style="margin-top: 10px"><source src="${d.file}">Your browser does not support the audio element.</audio>
+      <h3>Length: ${d.length}</h3>
+      <h3>Type: ${d.type}</h3>
+      <h3>Time: ${d.date} ${d.time}</h3>
+      <h3>Country: ${d.country}</h3>
+      <h3 style="margin-bottom: 25px">Recordist: ${d.recordist}</h3>
+      `;
+    return html;
+  }
+
 map.on("popupopen", function (centerMarker) {
   const zoomLvl = 3;
   var cM = map.project(centerMarker.popup._latlng);
-  cM.y -= centerMarker.popup._container.clientHeight / 2;
+  cM.y -= centerMarker.popup._container.clientHeight / 3;
   map.setView(map.unproject(cM), zoomLvl, { animate: true });
 });
+
+map.on("popupclose", function (centerMarker) {
+    const zoomLvl = 2;
+    var cM = map.project(centerMarker.popup._latlng);
+    cM.y -= centerMarker.popup._container.clientHeight / 2;
+    map.setView(map.unproject(cM), zoomLvl, { animate: true });
+  });
 
 getMapData();
