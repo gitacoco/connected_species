@@ -34,8 +34,6 @@ function hoverBehavior(indicator, g, d) {
         .on("mouseover", handlePopupOn)
         .on("mouseout", handlePopupOff);
       d3.select("#chart-wrapper").style("overflow-y", "hidden");
-      // d3.select("#chart-wrapper")
-      //   .style('overflow-x', 'hidden')
       break;
 
     case "geo":
@@ -58,41 +56,10 @@ function hoverBehavior(indicator, g, d) {
   }
 }
 
-function beforced(g, d) {
-  var width = d.canvasWidth;
+// function updateItem() {
+//   let g = d3.select("#chart").selectAll("g");
 
-  var simulation = d3
-    .forceSimulation(layoutData)
-    .force("charge", d3.forceManyBody().strength(100))
-    .force("center", d3.forceCenter(width / 3, 300))
-    .force("collide", d3.forceCollide().radius(function(d) {
-        return 40
-      }));
+//   g.on("click", handleItemClick);
+//   g.classed("selected", (d) => state.selectedItem === d.id);
+// }
 
-  simulation.on("tick", () => {
-    g = d3.select("#chart").selectAll("g")
-
-    g.attr("transform", function (d, i) {
-        return `translate(${d.x}, ${d.y})`;
-      });
-
-    g.select('circle')
-      .attr('r', 35)
-    
-    g.select('defs')
-      .attr("width", 70)
-      .attr("height", 70)
-  });
-}
-
-function itemClickBehavior(indicator, g, d) {
-  switch (indicator) {
-    case null:
-    g.style("pointer-events", "all").on("click", beforced);
-    break;
-    
-    // case geo:
-    // g.style("pointer-events", "none");
-    // break;
-  }
-}

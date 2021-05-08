@@ -6,8 +6,10 @@ var state = {
   selectedButton: null,
   sortedOption: null,
   hoveredButton: null,
-//   nodeTransitionDelay: null,
-//   nodeTransitionDuration: null,
+  selectedItem: null,
+  hoveredItem: null
+  //   nodeTransitionDelay: null,
+  //   nodeTransitionDuration: null,
 };
 
 function action(type, param) {
@@ -25,10 +27,9 @@ function action(type, param) {
       break;
 
     case "setNormalizedData":
-     state.normalizedData = param;
-     break;
+      state.normalizedData = param;
+      break;
   }
-
   update();
 }
 
@@ -38,4 +39,15 @@ function menuAction(type, param) {
       state.hoveredButton = param;
       break;
   }
+}
+
+function itemClickAction(type, param) {
+  switch (type) {
+    case "selectedItem":
+      state.selectedItem = param;
+      break;
+  }
+  updateItem();
+//   clearMarkers();
+  addMarkers();
 }

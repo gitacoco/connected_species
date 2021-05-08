@@ -1,2 +1,1 @@
-# connected_species
- 
+# Connected Specimens

@@ -28,8 +28,8 @@
   <div class="control-group">
     <div class="checkbox">
     </div>
-    <div id="collapse"><a>Stop prattling and collapse this! 😑</a></div>
-    <div id="expand"></div>
+    <div id="collapse"></div>
+    <div id="expand" style="margin-right: 10px;"></div>
   </div>
 
 
@@ -56,7 +56,7 @@
         <div class="control__indicator"></div>
       </label>
       <label class="control control--checkbox">May 7 Geographical map<br>with sound markers
-        <input type="checkbox" disabled="disabled" />
+        <input type="checkbox" disabled="disabled" checked="checked"/>
         <div class="control__indicator"></div>
       </label>
       <label class="control control--checkbox">May 7 Threats & Actions prototype
@@ -108,14 +108,15 @@
           href="mailto:jianz244@newschool.edu">Zhibang Jiang</a>.</div>
           `
     $(document).ready(function () {
-      $(".checkbox").html(content)
+      $(".checkbox").html('')
+      $("#expand").html('<a>See my agenda!    </a>')
     }
     )
 
     $("#collapse").on('click', function () {
       $(".checkbox").html('')
       $("#collapse").html('')
-      $("#expand").html('<a>Sorry, I wanna take a second look 😂</a>')
+      $("#expand").html('<a>See my agenda!</a>')
     })
 
     $("#expand").on('click', function () {

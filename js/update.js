@@ -21,8 +21,8 @@ function updateGroup(d, i) {
   if (state.selectedButton === 'geo') appendLabel(g, d, i) ;
   if (state.selectedButton !== 'geo') removeLabel(g, d, i);
 
+  itemClickBehavior(state.selectedButton, g, d);
   hoverBehavior(state.selectedButton, g, d);
-  // itemClickBehavior(state.selectedButton, g, d);
 
   g.transition() //location and opacity
     .duration(() => state.selectedButton === 'geo' ? 700: config.transitionDuration)
@@ -63,7 +63,6 @@ function updateGroup(d, i) {
     .attr('y', d.y * 0.0004 - 25)
     .attr('height', 50)
     .attr('rx', 5)
-    .style('fill', 'white')
     .style("opacity", state.selectedButton === 'geo' ? 0.75 : 0)
     .transition()
     .duration(1000)

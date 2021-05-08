@@ -70,7 +70,7 @@ var differButtonClicked = state.selectedButton !== d.id;
 
   if (hasButtonSelected) {
     if (differButtonClicked) {
-        if (state.selectedButton === "taxonomy" || "color") {
+        if (state.selectedButton === "taxonomy" || "color") {////temporary
             mockupRemove(d)
         }
 
@@ -81,7 +81,7 @@ var differButtonClicked = state.selectedButton !== d.id;
         .classed("selected", false);
         
     } else {//但点击的就是被选中的按钮
-      if (d.id === "taxonomy" || "color") {
+      if (d.id === "taxonomy" || "color") {////temporary
         mockupRemove(d)
     }
       action("setSelectedButton", null);
@@ -89,9 +89,9 @@ var differButtonClicked = state.selectedButton !== d.id;
     }} 
 
     //如果没有有按钮被选中的时候
-    if (d.id === "taxonomy" || "color") {
+    if (d.id === "taxonomy" || "color") {////temporary
         mockupAppend(d)
-    }
+    } 
   
     action("setSelectedButton", d.id);
     d3.select(this)

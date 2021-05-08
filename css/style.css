@@ -227,6 +227,8 @@ circle {
   /* stroke-width: 4.5; */
 }
 
+/* geo component */
+
 #chart g text {
   margin-left: 50px;
   font-size: 15px;
@@ -234,6 +236,23 @@ circle {
   text-anchor: start;
   font-family: 'Roboto', sans-serif;
 }
+
+#chart g.selected text {
+  margin-left: 50px;
+  font-size: 15px;
+  fill: #ffffff;
+  text-anchor: start;
+  font-family: 'Roboto', sans-serif;
+}
+
+#chart g rect {
+  fill: white;
+}
+
+#chart g.selected rect {
+  fill: #00778b;
+}
+
 
 #chart g {
   cursor: pointer;
