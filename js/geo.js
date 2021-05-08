@@ -147,7 +147,9 @@ function clearMarkers() {
 
 function createPopup(d,i) {
     var html = 
-    `<h3>Species: ${mapData[i].birdName}</h3>
+    `
+    <audio controls autoplay><source src="${d.file}">Your browser does not support the audio element.</audio>
+    <h3>Species: ${mapData[i].birdName}</h3>
     <h3>Length: ${d.length}</h3>
     <h3>Type: ${d.type}</h3>
     <h3>Time: ${d.date} ${d.time}</h3>
