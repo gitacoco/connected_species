@@ -48,6 +48,6 @@ function itemClickAction(type, param) {
       break;
   }
   updateItem();
-//   clearMarkers();
+  clearMarkers();
   addMarkers();
 }

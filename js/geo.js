@@ -93,50 +93,50 @@ function getMapData() {
   });
 }
 
-function addMarkers() {
-  var marker = L.circleMarker;
+var markers = new L.FeatureGroup();
 
+function addMarkers() {
   if (state.selectedItem == null) {
     // d3.select("#chart g").classed("selected", true); //temporary
     // itemClickAction("selectedItem", "SD");
     for (var i = 0; i < mapData.length; i++) {
       mapData[i]["recordings"].slice(0, 15).forEach((d) => {
-        if (d.lat !== undefined && d.lng !== undefined) {
-          var markers = marker([+d.lat, +d.lng]);
+        if ((d.lat !== undefined) && (d.lng !== undefined)) {
+          var marker = L.circleMarker([+d.lat, +d.lng]);
         }
 
-        markers.setStyle({
-          radius: 6,
-          weight: 0.25,
-        });
+        marker.setStyle({
+            radius: 6,
+            weight: 0.25
+          });
 
-        markers.addTo(map);
+        markers.addLayer(marker);
+        map.addLayer(markers);
       });
     }
   } else {
     const selectedBird = mapData.find(
-      (element) => element.birdCode === state.selectedItem
-    );
-    selectedBird["recordings"].forEach((d) => {
-      if (d.lat !== undefined && d.lng !== undefined) {
-        var markers = marker([+d.lat, +d.lng]);
-      }
+        (element) => element.birdCode === state.selectedItem
+      );
+      selectedBird["recordings"].forEach((d) => {
+        if ((d.lat !== undefined) && (d.lng !== undefined)) {
+          var marker = L.circleMarker([+d.lat, +d.lng]);
+        }
 
-      markers.setStyle({
-        radius: 6,
-        weight: 0.25,
+        marker.setStyle({
+            radius: 6,
+            weight: 0.25
+          });
+
+        markers.addLayer(marker);
+        map.addLayer(markers);
       });
-      
-      
-      markers.addTo(map);
-    });
   }
 }
 
 function clearMarkers() {
-  map.eachLayer((layer) => {
-    layer.remove();
-  });
+    // map.removeLayer(markers);
+    markers.clearLayers();
 }
 
 getMapData();
