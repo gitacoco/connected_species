@@ -90,7 +90,9 @@ function getMapData() {
   d3.json("data/sound_data.json").then(function (json) {
     mapData = json;
     addMarkers();
+    console.log(mapData)
   });
+  
 }
 
 var markers = new L.FeatureGroup();
@@ -110,7 +112,10 @@ function addMarkers() {
             weight: 0.25
           });
 
+        marker.bindPopup('<h2>Recordist: ' + d.recordist + '</h2>');
+
         markers.addLayer(marker);
+
         map.addLayer(markers);
       });
     }
@@ -135,8 +140,11 @@ function addMarkers() {
 }
 
 function clearMarkers() {
-    // map.removeLayer(markers);
     markers.clearLayers();
 }
+
+// var popup = L.popup({
+//     maxWidth: 400
+// }).setContent('<p>bird name:' + mapData[i]["recordings"].birdName + '</p>')
 
 getMapData();
