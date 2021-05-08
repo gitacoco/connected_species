@@ -159,4 +159,11 @@ function createPopup(d,i) {
     return html;
 }
 
+map.on('popupopen', function(centerMarker) {
+    const zoomLvl = 3;
+    var cM = map.project(centerMarker.popup._latlng);
+    cM.y -= centerMarker.popup._container.clientHeight/2
+    map.setView(map.unproject(cM), zoomLvl, {animate: true});
+});
+
 getMapData();
