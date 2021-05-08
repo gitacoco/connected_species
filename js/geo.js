@@ -152,7 +152,6 @@ function createHtml(d, i) {
   var html = `
     <audio controls autoplay loop style="margin-top: 10px"><source src="${d.file}">Your browser does not support the audio element.</audio>
     <h2>${mapData[i].birdName}</h2>
-    <h3>Length: ${d.length}</h3>
     <h3>Type: ${d.type}</h3>
     <h3>Time: ${d.date} ${d.time}</h3>
     <h3>Country: ${d.country}</h3>
@@ -164,7 +163,6 @@ function createHtml(d, i) {
 function createHtmlSelected(d) {
     var html = `
       <audio controls autoplay loop style="margin-top: 10px"><source src="${d.file}">Your browser does not support the audio element.</audio>
-      <h3>Length: ${d.length}</h3>
       <h3>Type: ${d.type}</h3>
       <h3>Time: ${d.date} ${d.time}</h3>
       <h3>Country: ${d.country}</h3>
@@ -180,11 +178,11 @@ map.on("popupopen", function (centerMarker) {
   map.setView(map.unproject(cM), zoomLvl, { animate: true });
 });
 
-map.on("popupclose", function (centerMarker) {
-    const zoomLvl = 2;
-    var cM = map.project(centerMarker.popup._latlng);
-    cM.y -= centerMarker.popup._container.clientHeight / 2;
-    map.setView(map.unproject(cM), zoomLvl, { animate: true });
-  });
+// map.on("popupclose", function (centerMarker) {
+//     const zoomLvl = 2;
+//     var cM = map.project(centerMarker.popup._latlng);
+//     cM.y -= centerMarker.popup._container.clientHeight / 2;
+//     map.setView(map.unproject(cM), zoomLvl, { animate: true });
+//   });
 
 getMapData();
