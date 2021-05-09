@@ -30,7 +30,6 @@ function action(type, param) {
       state.normalizedData = param;
       break;
   }
-  console.log(state.selectedButton)
   update();
 }
 
