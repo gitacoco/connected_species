@@ -42,7 +42,7 @@ function hoverBehavior(indicator, g, d) {
         .on("mouseout", handleGeoOff);
       break;
 
-    case "conservation":
+    case "status":
       g.style("pointer-events", d.id > 5555 ? "all" : "none")
         .on("mouseover", handlePopupOn)
         .on("mouseout", handlePopupOff);
@@ -51,6 +51,12 @@ function hoverBehavior(indicator, g, d) {
 
     case "threats":
       g.style("pointer-events", "none");
+      d3.select("#chart-wrapper").style("overflow-y", "hidden");
+      break;
+
+    case "recog":
+      g.style("pointer-events", "all")
+      .on("mouseover", handlePopupOff);
       d3.select("#chart-wrapper").style("overflow-y", "hidden");
       break;
   }
@@ -62,4 +68,3 @@ function hoverBehavior(indicator, g, d) {
 //   g.on("click", handleItemClick);
 //   g.classed("selected", (d) => state.selectedItem === d.id);
 // }
-

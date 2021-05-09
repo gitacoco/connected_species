@@ -23,6 +23,7 @@ function updateGroup(d, i) {
 
   itemClickBehavior(state.selectedButton, g, d);
   hoverBehavior(state.selectedButton, g, d);
+  recogBehavior(state.selectedButton, g, d);
 
   g.transition() //location and opacity
     .duration(() => state.selectedButton === 'geo' ? 700: config.transitionDuration)

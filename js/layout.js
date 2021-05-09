@@ -7,7 +7,9 @@ var config = {
     indentation: 30,
     geoCoeffiY: 60,
     threatCircleY: 300,
-    threatCoeffiX: 50
+    threatCoeffiX: 50,
+    recogCoeffiX: 130,
+    recogCoeffiY: 530
 };
 
 statusIndex = {
@@ -82,7 +84,7 @@ function layout(data) {
             item.canvasWidth = config.threatCoeffiX * (datasetSum - (5 - 2)) + 3 * config.indentation - 5 * item.galleryRadius;
             item.canvasHeight = 660;
             item.visible = visible(d);
-        } else if(state.selectedButton === 'conservation'){
+        } else if(state.selectedButton === 'status'){
             item.x = d.x;
             item.y = d.y;
             item.galleryRadius = d.r;
@@ -92,11 +94,18 @@ function layout(data) {
             item.canvasWidth = 1051.4;
             item.canvasHeight = 660;
             item.visible = true;
+        } else if(state.selectedButton === 'recog'){
+            item.x = 2 * config.indentation + i * config.recogCoeffiX;
+            item.y = config.recogCoeffiY;
+            item.galleryRadius = config.galleryRadius; 
+            item.defsRadius = 2 * config.galleryRadius;
+            item.strokewidth = 4.5;
+            item.canvasWidth = config.recogCoeffiX * (datasetSum - (5 - 2)) + 3 * config.indentation - 5 * item.galleryRadius - 40;
+            item.canvasHeight = 660;
+            item.visible = visible(d);
         }
 
         item.code = dPre.code;//picture index
-
-        
 
         item.panelData = {
         sciName: dPre.name,

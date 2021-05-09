@@ -28,9 +28,9 @@ var menuItems = [
     mock_top_margin: "70px"
   },
   {
-    id: "conservation",
+    id: "status",
     // label: 'Evolutionary Phylogeny'
-    label: "Conservation Status",
+    label: "Living Status",
     icon: "assets/pics/icons/b4.png",
     iconActive: "assets/pics/icons/b4-1.png",
   },
@@ -147,8 +147,8 @@ function initializeMenu() {
 
   buttons.select(".item").classed("columnA", true);
 
-  // d3.select('#titles')
-  //     .on('click', handleMenuClick);
+//   d3.select('#recognition')
+//        .on('click', handleRecogClick(state.selectedButton));
 }
 
 //D3 can be used to create standard HTML elements

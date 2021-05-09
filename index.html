@@ -7,7 +7,7 @@
   <link rel="icon" href="assets/pics/favicon.ico" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/checkbox.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/pano.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7DZM9J5H2E"></script>
   <script>
@@ -21,7 +21,7 @@
 
 <body style="overflow: hidden;">
   <figure class='ipad'>
-    <iframe src='iframe.html'></iframe>
+    <iframe id="myframe" src='iframe.html'></iframe>
   </figure>
 
 
@@ -33,6 +33,14 @@
   </div>
 
 
+  <script src="js/lib/jquery-3.6.0.min.js"></script>
+  <script src="js/lib/three.min.js"></script>
+  <script src="js/lib/d3.min.js"></script>
+  <script src="js/lib/panolens.min.js"></script>
+  <!-- pano.js need reference config -->
+  <script src="js/layout.js"></script> 
+  <script src="js/recog.js"></script> 
+  <script src="js/pano.js"></script>
   <script>
     var container = document.querySelector('.ipad');
     var calcSize = function calcSize() {
@@ -71,15 +79,11 @@
         <input type="checkbox" disabled="disabled" />
         <div class="control__indicator"></div>
       </label>
-      <label class="control control--checkbox">May 8 Credit and Citation buttons
-        <input type="checkbox" disabled="disabled" />
-        <div class="control__indicator"></div>
-      </label>
       <label class="control control--checkbox">May 9 Panorama/AR component
-        <input type="checkbox" disabled="disabled" />
+        <input type="checkbox" disabled="disabled" checked="checked"/>
         <div class="control__indicator"></div>
       </label>
-      <label class="control control--checkbox">May 9 Area filter above the map
+      <label class="control control--checkbox">May 9 Credit and Citation buttons
         <input type="checkbox" disabled="disabled" />
         <div class="control__indicator"></div>
       </label>
@@ -87,7 +91,7 @@
         <input type="checkbox" disabled="disabled" />
         <div class="control__indicator"></div>
       </label>
-      <label class="control control--checkbox">Future: 3D globe in the map view
+      <label class="control control--checkbox">Future: Area filter above the map
         <input type="checkbox" disabled="disabled" />
         <div class="control__indicator"></div>
       </label>
@@ -128,8 +132,6 @@
       $("#collapse").html('<a>Stop prattling and collapse this! 😑</a>')
       $("#expand").html('')
     })
-
-
   </script>
 </body>
 

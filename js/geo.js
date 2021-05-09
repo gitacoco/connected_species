@@ -90,7 +90,6 @@ function getMapData() {
   d3.json("data/sound_data.json").then(function (json) {
     mapData = json;
     addMarkers();
-    console.log(mapData);
   });
 }
 
@@ -150,6 +149,7 @@ function clearMarkers() {
 
 function createHtml(d, i) {
   var html = `
+    <div id="waveform"></div>
     <audio controls autoplay loop style="margin-top: 10px"><source src="${d.file}">Your browser does not support the audio element.</audio>
     <h2>${mapData[i].birdName}</h2>
     <h3>Type: ${d.type}</h3>
@@ -162,7 +162,8 @@ function createHtml(d, i) {
 }
 
 function createHtmlSelected(d) {
-    var html = `
+  var html = `
+      <div id="waveform"></div>
       <audio controls autoplay loop style="margin-top: 10px"><source src="${d.file}">Your browser does not support the audio element.</audio>
       <h3>Type: ${d.type}</h3>
       <h3>Time: ${d.date} ${d.time}</h3>
@@ -170,8 +171,8 @@ function createHtmlSelected(d) {
       <h3>Recordist: ${d.recordist}</h3>
       <h3 style="margin-bottom: 25px">Source: <a href="${d.url}" target="_blank">xeno-canto</a></h3>
       `;
-    return html;
-  }
+  return html;
+}
 
 map.on("popupopen", function (centerMarker) {
   const zoomLvl = 3;
