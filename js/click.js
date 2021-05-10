@@ -5,7 +5,7 @@ function beforced(g, d) {
 
   var simulation = d3
     .forceSimulation(layoutData)
-    .force("charge", d3.forceManyBody().strength(100))
+    .force("charge", d3.forceManyBody().strength(120))
     .force("center", d3.forceCenter(width / 3, 300))
     .force(
       "collide",
@@ -62,7 +62,7 @@ function updateItem() {
 function itemClickBehavior(indicator, g, d) {
   switch (indicator) {
     case null:
-    //   g.style("pointer-events", "all").on("click", beforced);
+      g.style("pointer-events", "all").on("click", beforced);
       break;
 
     case "geo":
