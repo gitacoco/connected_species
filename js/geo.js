@@ -89,7 +89,7 @@ function mapGenerator() {
 function getMapData() {
   d3.json("data/sound_data.json").then(function (json) {
     mapData = json;
-    console.log(mapData)
+    // console.log(mapData)
     addMarkers();
   });
 }
