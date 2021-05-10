@@ -89,6 +89,7 @@ function mapGenerator() {
 function getMapData() {
   d3.json("data/sound_data.json").then(function (json) {
     mapData = json;
+    console.log(mapData)
     addMarkers();
   });
 }
@@ -124,7 +125,7 @@ function addMarkers() {
     selectedBird["recordings"].forEach((d) => {
       if (d.lat !== undefined && d.lng !== undefined) {
         var marker = L.circleMarker([+d.lat, +d.lng]);
-      }
+      } 
 
       marker.setStyle({
         radius: 7,
@@ -147,6 +148,30 @@ function clearMarkers() {
 //   closeButton: false,
 // });
 
+function birdURLGenerator(d) {
+  let urlGroup = []
+  let endpoint = "https://apiv3.iucnredlist.org/api/v3/weblink/"
+  if (d.background[0] !== ''){
+    for (var i = 0; i < d.background.length; i++){
+      eachName = d.background[i]
+      let NameURL = encodeURIComponent(eachName.trim())
+      eachQuery = endpoint + NameURL
+      urlGroup.push(eachQuery)
+      eachURL = urlGroup[0]
+      console.log(eachURL)
+      return eachURL;
+    }
+  }
+}
+
+function birdLinkConditional(d) {
+  if (d.background[0] === ''){
+    return 'No other birds'
+  } else {
+    return `<a href="${birdURLGenerator(d)}" target="_blank">${d.background}</a>`
+  }
+}
+
 function createHtml(d, i) {
   var html = `
     <div id="waveform"></div>
@@ -156,6 +181,7 @@ function createHtml(d, i) {
     <h3>Time: ${d.date} ${d.time}</h3>
     <h3>Country: ${d.country}</h3>
     <h3>Recordist: ${d.recordist}</h3>
+    <h3>Background: ${birdLinkConditional(d)}</h3>
     <h3 style="margin-bottom: 25px">Source: <a href="${d.url}" target="_blank">xeno-canto</a></h3>
     `;
   return html;
@@ -169,6 +195,7 @@ function createHtmlSelected(d) {
       <h3>Time: ${d.date} ${d.time}</h3>
       <h3>Country: ${d.country}</h3>
       <h3>Recordist: ${d.recordist}</h3>
+      <h3>Background: ${birdLinkConditional(d)}</h3>
       <h3 style="margin-bottom: 25px">Source: <a href="${d.url}" target="_blank">xeno-canto</a></h3>
       `;
   return html;
