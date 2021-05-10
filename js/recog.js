@@ -32,6 +32,7 @@ function closeAR() {
   window.parent.document
     .getElementsByClassName("panolens-canvas")[0]
     .classList.remove("active");
+  window.parent.clearFake3DLines()
   // window.parent.render();
   // window.parent.startPanoPic();
 }

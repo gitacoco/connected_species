@@ -52,9 +52,12 @@ class Point {
   }
   
   const pos3D = [
-    [-5000, 3175, 2510],
+    [-4228, 5000, 1455],
     [-5000, 2945, 3576],
     [-5000, 2597, 784],
+    [-3570, 1136, -5000],
+    [-5000, 2415, -1991],
+    [-3340, 1290, 5000],
     [-3570, 1136, -5000],
     [-5000, 2415, -1991],
     [-3340, 1290, 5000]
@@ -63,13 +66,13 @@ class Point {
   const infospots = [];
   const targets = (() => {
     const chartHeight = 2 * config.galleryRadius;
-    const y = document.documentElement.clientHeight - chartHeight / 2;
+    const y = document.documentElement.clientHeight - chartHeight / 2 - 250;
     const ret = [];
     const width = document.documentElement.clientWidth / pos3D.length;
     const start = 0 - document.documentElement.clientWidth / pos3D.length / 2;
 
     for (let i = 0; i < pos3D.length; i += 1) {
-      ret.push({ x: start + (i + 1) * width, y });
+      ret.push({ x: start + (i + 1) * width * 0.63 + 90, y});
     }
 
     return ret;
