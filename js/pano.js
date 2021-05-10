@@ -45,7 +45,7 @@ class Point {
     output: 'console'
   });
   const camera = viewer.getCamera();
-  
+
   function startPanoPic() {
     viewer.add(panorama);
     viewer.tweenControlCenter( new THREE.Vector3(-40, -950, 0), 1000 );
@@ -53,26 +53,27 @@ class Point {
   
   const pos3D = [
     [-5000, 3206, 2486],
-    [-5000, 151.45, -1767.63],
-    [-5000, 2597, 784],
-    [-3570, 1136, -5000],
-    [-5000, 2415, -1991],
-    [-3340, 1290, 5000],
-    [-3570, 1136, -5000],
-    [-5000, 2415, -1991],
-    [-3340, 1290, 5000]
+    [-5000, 151.45, -1767.63],//Ancient Murrelet
+    [-5000, 1763.9, -4213.02],//Baikal Teal
+    [-5000, 2145, 2489],//Balck Stork
+    [-5000, 721, 723],//Halcyon pileata
+    [-5000, 1896, 1611],//Black-crowned Night-heron
+    [-5000, 709, -318],//Black-headed Gull
+    [-5000, 293, -2459],//Black-necked Grebe
+    [-5000, 1104, 2599],//Carrion Crow
   ];
 
   const infospots = [];
+  //set the position of starting points
   const targets = (() => {
     const chartHeight = 2 * config.galleryRadius;
-    const y = document.documentElement.clientHeight - chartHeight / 2 - 250;
+    const y = document.documentElement.clientHeight - chartHeight / 2 - 200;
     const ret = [];
     const width = document.documentElement.clientWidth / pos3D.length;
     const start = 0 - document.documentElement.clientWidth / pos3D.length / 2;
 
     for (let i = 0; i < pos3D.length; i += 1) {
-      ret.push({ x: start + (i + 1) * width * 0.63 + 90, y});
+      ret.push({ x: start + (i + 1) * width * 0.555 + 510, y});
     }
 
     return ret;
@@ -87,8 +88,10 @@ class Point {
     infospots.push(infospot);
   }
 
+  var child = document.getElementById('myframe').contentWindow
+  
   function clearFake3DLines() {
-    document.getElementById('myframe').contentWindow.document.getElementById('3d-lines').innerHTML = '';
+    document.getElementById('3d-lines').innerHTML = '';
   }
 
   function getBezierPoint(top, bottom) {
@@ -108,7 +111,7 @@ class Point {
     const leftQ = getBezierPoint(leftTop, leftBottom);
     const rightQ = getBezierPoint(rightTop, rightBottom);
 
-    document.getElementById('myframe').contentWindow.document.getElementById('3d-lines').innerHTML += `
+    document.getElementById('3d-lines').innerHTML += `
       <path d="M${leftTop} L${rightTop} Q${rightQ} ${rightBottom} L${leftBottom} Q${leftQ} ${leftTop} Z" class="fake3DLine" />
     `;
   }

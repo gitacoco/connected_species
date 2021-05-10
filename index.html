@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Connected Birds</title>
+  <title>Connected Specimens</title>
   <link rel="icon" href="assets/pics/favicon.ico" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/checkbox.css">
@@ -23,7 +23,9 @@
   <figure class='ipad'>
     <iframe id="myframe" src='iframe.html'></iframe>
   </figure>
-
+  <svg id="AR">
+    <g id="3d-lines"></g>
+  </svg>
 
   <div class="control-group">
     <div class="checkbox">
@@ -38,8 +40,8 @@
   <script src="js/lib/d3.min.js"></script>
   <script src="js/lib/panolens.min.js"></script>
   <!-- pano.js need reference config -->
-  <script src="js/layout.js"></script> 
-  <script src="js/recog.js"></script> 
+  <script src="js/layout.js"></script>
+  <script src="js/recog.js"></script>
   <script src="js/pano.js"></script>
   <script>
     var container = document.querySelector('.ipad');
