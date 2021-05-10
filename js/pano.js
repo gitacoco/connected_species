@@ -48,7 +48,7 @@ class Point {
 
   function startPanoPic() {
     viewer.add(panorama);
-    viewer.tweenControlCenter( new THREE.Vector3(-40, -950, 0), 1000 );
+    viewer.tweenControlCenter( new THREE.Vector3(-40, -950, 0), 100 );
   }
   
   const pos3D = [
