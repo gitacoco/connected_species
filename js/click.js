@@ -62,7 +62,7 @@ function updateItem() {
 function itemClickBehavior(indicator, g, d) {
   switch (indicator) {
     case null:
-      g.style("pointer-events", "all").on("click", beforced);
+      // g.style("pointer-events", "all").on("click", beforced);
       break;
 
     case "geo":
