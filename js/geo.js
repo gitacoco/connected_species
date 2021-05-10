@@ -158,7 +158,6 @@ function birdURLGenerator(d) {
       eachQuery = endpoint + NameURL
       urlGroup.push(eachQuery)
       eachURL = urlGroup[0]
-      console.log(eachURL)
       return eachURL;
     }
   }
