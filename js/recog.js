@@ -16,7 +16,7 @@ function runAR() {
     .getElementsByClassName("panolens-canvas")[0]
     .classList.add("active");
   window.parent.render();
-  // window.parent.startPanoPic();
+  window.parent.startPanoPic();
 }
 
 function closeAR() {
