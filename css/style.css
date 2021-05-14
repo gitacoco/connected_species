@@ -118,11 +118,13 @@ h4 {
 #recognition.active {
   filter: grayscale(0);
   cursor: pointer;
+  pointer-events: all;
 }
 
 #recognition {
   filter: grayscale(1);
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 /* D3 Menu */

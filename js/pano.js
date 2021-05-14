@@ -37,6 +37,7 @@ class Point {
   };
 
   const limitCamera = new THREE.PerspectiveCamera(100, 1, 1, 110);
+
   
   const panorama = new PANOLENS.ImagePanorama('../assets/textures/equirectangular/field.jpg');
   const viewer = new PANOLENS.Viewer({
@@ -48,8 +49,13 @@ class Point {
 
   function startPanoPic() {
     viewer.add(panorama);
-    viewer.tweenControlCenter( new THREE.Vector3(-40, -950, 0), 100 );
+    viewer.tweenControlCenter( new THREE.Vector3(-100, -650, 10), 100 );
   }
+  
+  viewer.OrbitControls.minAzimuthAngle = 0.9
+  viewer.OrbitControls.maxAzimuthAngle = 2.2
+  viewer.OrbitControls.maxPolarAngle = 2
+  viewer.OrbitControls.minPolarAngle = 1.5
   
   const pos3D = [
     [-5000, 3206, 2486],

@@ -53,6 +53,11 @@ function hoverBehavior(indicator, g, d) {
       g.style("pointer-events", "none");
       d3.select("#chart-wrapper").style("overflow-y", "hidden");
       break;
+    
+    case "taxonomy":
+      g.style("pointer-events", "none");
+      d3.select("#chart-wrapper").style("overflow-y", "hidden");
+      break;
 
     case "recog":
       g.style("pointer-events", "all")

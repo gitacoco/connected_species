@@ -63,7 +63,7 @@ function recogBehavior(indicator, e, d) {
     case "taxonomy":
     case "status":
     case "threats":
-      recog.classed("active", false);
+      recog.classed("active", false)
       d3.select("body").style("background-color", "#e9e9e9");
       break;
   }
