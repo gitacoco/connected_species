@@ -46,16 +46,21 @@ class Point {
     output: 'console'
   });
   const camera = viewer.getCamera();
-
-  function startPanoPic() {
-    viewer.add(panorama);
-    viewer.tweenControlCenter( new THREE.Vector3(-100, -650, 10), 100 );
-  }
-  
-  viewer.OrbitControls.minAzimuthAngle = 0.9
-  viewer.OrbitControls.maxAzimuthAngle = 2.2
+  viewer.add(panorama);
+  viewer.tweenControlCenter( new THREE.Vector3(-100, -650, 10), 100 );
   viewer.OrbitControls.maxPolarAngle = 2
   viewer.OrbitControls.minPolarAngle = 1.5
+  viewer.OrbitControls.minAzimuthAngle = 0.9
+  viewer.OrbitControls.maxAzimuthAngle = 2.2
+
+  // function startPanoPic() {
+  //   // viewer.add(panorama);
+  //   viewer.tweenControlCenter( new THREE.Vector3(-100, -650, 10), 100 );
+  //   viewer.OrbitControls.minAzimuthAngle = 0.9
+  //   viewer.OrbitControls.maxAzimuthAngle = 2.2
+  //   viewer.OrbitControls.maxPolarAngle = 2
+  //   viewer.OrbitControls.minPolarAngle = 1.5
+  // }
   
   const pos3D = [
     [-5000, 3206, 2486],
