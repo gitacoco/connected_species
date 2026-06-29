@@ -2,7 +2,7 @@
 
 ## A low-cost framework for museums to expand the stories of displayed specimens<!-- omit in toc -->
 
-By [Zhibang Jiang](https://zhibang.design) | [Live Demo](https://connected-specimens.com/) | [Code Repo](https://github.com/gitacoco/connected_species) | [Written Thesis](./docs/thesis/written-thesis-zhibang-jiang.pdf) | [MSDV 2021 Thesis Projects](http://parsons.nyc/thesis-2021/)
+By [Zhibang Jiang](https://zhibang.design) | [Live Demo](https://connected-specimens.com/) | [Code Repo](https://github.com/gitacoco/connected_species) | [Written Thesis](./docs/thesis/written-thesis.pdf) | [MSDV 2021 Thesis Projects](http://parsons.nyc/thesis-2021/)
 
 Submitted in partial fulfillment of the requirements for the degree of Master Science in Data Visualization at Parsons School of Design
 
@@ -457,7 +457,7 @@ The pace is good, and tone is natural. If leave a pause after each section to le
 
 ## Written Thesis
 
-[Read the written thesis](./docs/thesis/written-thesis-zhibang-jiang.pdf)
+[Read the written thesis](./docs/thesis/written-thesis.pdf)
 
 ## Last-mile to-do list by date
 
